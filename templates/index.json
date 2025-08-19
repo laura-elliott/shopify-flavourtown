@@ -75,6 +75,7 @@
     },
     "custom_liquid_zrEQi3": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "Section {margin: 0;}"
       ],
@@ -88,12 +89,25 @@
     },
     "rich_text_w3WcmC": {
       "type": "rich-text",
+      "blocks": {
+        "heading_hJ7ccz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Helping you celebrate life's special moments, big and small, with the world's best cakes, cupcakes, and cookies.",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hJ7ccz"
+      ],
       "custom_css": [],
       "settings": {
         "text_position": "justify-center",
         "text_align": "text-center",
         "mob_center_text": true,
-        "color_scheme": "none",
+        "color_scheme": "1",
         "full_width": false,
         "prevent_animation": false
       }
