@@ -1,0 +1,611 @@
+{%- liquid
+  assign heading_tag = "h2"
+  if section.settings.heading_h1
+    assign heading_tag = "h1"
+  endif
+-%}
+
+<section id="section-id-{{ section.id }}" class="border-top section-id-{{ section.id }} section {% if section.settings.alternate_bg_color %}use-alt-bg full-width-section{% endif %}">
+  {% assign brightness = section.settings.color_bg | color_brightness %}
+  {% assign alpha = section.settings.color_bg | color_extract: 'alpha' %}
+
+  {% style %}
+      @media (min-width: 768px) {
+        #section-id-{{ section.id }} .h2 {
+          {%- assign title_size_medium = section.settings.title_size | times: 0.8 | at_least: settings.font_size_heading_int -%}
+            font-size: {{ title_size_medium }}px;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        #section-id-{{ section.id }} .h2 {
+          font-size: {{ section.settings.title_size }}px;
+        }
+      }
+  {% endstyle %}
+
+  {% if section.settings.alternate_bg_color == false %}
+    <style>
+      .section-id-{{ section.id }} .rich-text-section {
+        background: {{ section.settings.color_bg }};
+      }
+    </style>
+  {% endif %}
+
+  <div class="container {% if section.settings.color_bg == "rgba(0,0,0,0)" %}no-bg-color{% endif %}">
+    <div class="rich-text-section" data-cc-animate>
+      <div class="rich-text-section__text section-spacing--{{ section.settings.section_spacing }}
+        {% if section.settings.no_padding %}pb-0 pt-0{% endif %}
+        {% unless section.settings.full_width %}reading-width{% endunless %}
+        align-{{ section.settings.text_alignment }}
+        {% if section.settings.alternate_bg_color == false %}
+          {% if section.settings.color_bg != "rgba(0,0,0,0)" and section.settings.color_bg != blank %}
+            {% if brightness < 190 and alpha > 0 %}light-text-section{% else %}dark-text-section{% endif %}
+          {% endif %}
+        {% endif %}">
+
+        {% if section.settings.subheading != blank %}
+          <div class="feature-subheader" data-cc-animate data-cc-animate-delay="0.2s">
+            {{ section.settings.subheading | escape }}
+          </div>
+        {% endif %}
+
+        {% if section.settings.title != blank %}
+          <{{ heading_tag }} class="h2" data-cc-animate data-cc-animate-delay="0.3s">
+            {{ section.settings.title | newline_to_br }}
+          </{{ heading_tag }}>
+        {% endif %}
+
+        <div class="rte {% if section.settings.enlarge_text %}large-text{% endif %}" data-cc-animate data-cc-animate-delay="0.4s">
+          {{ section.settings.text }}
+
+
+<section class="section section--{{ section.id }} section--mb-s" data-section-id="{{ section.id }}" data-section-type="home-inline">
+    <div class="container">
+        {% if section.settings.title != blank %}
+            <div class="section__title section__title--center">
+                <h2 class="section__title-text">{{ section.settings.title | escape }}</h2>
+            </div>
+        {% else %}
+          <div class="section__title section__title--center">
+            <h2 class="section__title-text">Bakery Menu</h2>
+          <p>All dine-in prices are subject to 20% VAT</p>
+          </div>
+      	{% endif %}
+    </div>
+
+  <div class="menu-container container">
+
+        <div class="menu-column">
+            <h4>Cupcakes</h4>
+              <table>
+                <tr>
+                  <th></th>
+                  <th><p>Take Out</p></th>
+                  <th></th>
+                  <th><p>Take Out</p></th>
+                </tr>
+                <tr>
+                  <td><p>Bad Ass Brownie</p></td>
+                  <td><p>&pound;3.70</p></td>
+                  <td><p>Biscoff Cupcake</p></td>
+                  <td><p>&pound;4.30</p></td>
+                </tr>
+                <tr>
+                  <td><p>Black Velvet</p></td>
+                  <td><p>&pound;3.70</p></td>
+                  <td><p>Kinder Cupcake</p></td>
+                  <td><p>&pound;4.30</p></td>
+                </tr>
+                <tr>
+                  <td><p>Nutella Vs Oreo Cupcake</p></td>
+                  <td><p>&pound;4.10</p></td>
+                  <td><p>Princess Betty Cupcake (Weekends only)</p></td>
+                  <td><p>&pound;4.30</p></td>
+                </tr>
+                <tr>
+                  <td><p>Red Velvet Cupcake</p></td>
+                  <td><p>&pound;3.70</p></td>
+                  <td><p>Salted Caramel Cupcake</p></td>
+                  <td><p>&pound;3.70</p></td>
+                </tr>
+                <tr>
+                  <td><p>Unicorn Cupcake</p></td>
+                  <td><p>&pound;3.75</p></td>
+                  <td><p>Vegan Cookies &amp; Cream Cupcake</p></td>
+                  <td><p>&pound;4.10</p></td>
+                </tr>
+                <tr>
+                  <td><p>Vegan Vanilla Cupcake</p></td>
+                  <td><p>&pound;3.70</p></td>
+                  <td><p>Vegan &amp; Free From Gluten Death By Chocolate Cupcake</p></td>
+                  <td><p>&pound;4.10</p></td>
+                </tr>
+                <tr>
+                  <td><p>Vegan Red Velvet</p></td>
+                  <td><p>&pound;3.70</p></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </table>
+          
+            <h4>Brownies &amp; Cookies</h4>
+              <table>
+                <tr>
+                  <th></th>
+                  <th><p>Take Out</p></th>
+                </tr>
+                <tr>
+                  <td><p>Mars Brownie</p></td>
+                  <td><p>&pound;4.75</p></td>
+                </tr>
+                <tr>
+                  <td><p>Free From Gluten Cheesecake Brownie</p></td>
+                  <td><p>&pound;4.25</p></td>
+                </tr>
+                <tr>
+                  <td><p>Salted Caramel Brownie</p></td>
+                  <td><p>&pound;4.25</p></td>
+                </tr>
+                <tr>
+                  <td><p>White Chocolate Macadamia Monster Cookie</p></td>
+                  <td><p>&pound;4.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>Black Velvet Monster Cookie</p></td>
+                  <td><p>&pound;4.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>Milk Chocolate Monster Cookie</p></td>
+                  <td><p>&pound;4.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>Red Velvet Cookie Sandwiches</p></td>
+                  <td><p>&pound;4.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>Phat Cow Rocky Road</p></td>
+                  <td><p>&pound;4.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>Bourbon Biscoff Rocky Road</p></td>
+                  <td><p>&pound;4.50</p></td>
+                </tr>
+              </table>
+
+            <h4>Hot Drinks</h4>
+              <table>
+                <tr>
+                  <th></th>
+                  <th><p>Take Out</p></th>
+                </tr>
+                <tr>
+                  <td><p>Biscoff Salted Caramel Latte</p></td>
+                  <td><p>&pound;3.80</p></td>
+                </tr>
+                <tr>
+                  <td><p>Flavourtown Hot Chocolate</p></td>
+                  <td><p>&pound;3.40</p></td>
+                </tr>
+                <tr>
+                  <td><p>Espresso</p></td>
+                  <td><p>&pound;2.20</p></td>
+                </tr>
+                <tr>
+                  <td><p>Macchiato</p></td>
+                  <td><p>&pound;2.40</p></td>
+                </tr>
+                <tr>
+                  <td><p>Cortado</p></td>
+                  <td><p>&pound;2.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>Americano</p></td>
+                  <td><p>&pound;2.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>Flat White</p></td>
+                  <td><p>&pound;2.70</p></td>
+                </tr>
+                <tr>
+                  <td><p>Latte</p></td>
+                  <td><p>&pound;2.70</p></td>
+                </tr>
+                <tr>
+                  <td><p>Cappuccino</p></td>
+                  <td><p>&pound;2.70</p></td>
+                </tr>
+                <tr>
+                  <td><p>Mocha</p></td>
+                  <td><p>&pound;3.00</p></td>
+                </tr>
+                <tr>
+                  <td><p>Chai Latte</p></td>
+                  <td><p>&pound;2.90</p></td>
+                </tr>
+                <tr>
+                  <td><p>Dirty Chai</p></td>
+                  <td><p>&pound;3.20</p></td>
+                </tr>
+                <tr>
+                  <td><p>Matcha Latte</p></td>
+                  <td><p>&pound;3.20</p></td>
+                </tr>
+                <tr>
+                  <td><p>Tea: Peppermint / Breakfast / Chamomile / Earl Grey / Lemongrass &amp; Ginger / Rooibos / Green</p></td>
+                  <td><p>&pound;2.40</p></td>
+                </tr>
+              </table>
+
+            <h4>Merchandise</h4>
+              <table>
+                <tr>
+                  <th></th>
+                  <th><p>Price</p></th>
+                </tr>
+                <tr>
+                  <td><p>Selection Of Candles</p></td>
+                  <td><p>Various</p></td>
+                </tr>
+                <tr>
+                  <td><p>Keep Cup 12oz Glass</p></td>
+                  <td><p>&pound;15.95</p></td>
+                </tr>
+                <tr>
+                  <td><p>Keep Cup 8oz Small</p></td>
+                  <td><p>&pound;10.95</p></td>
+                </tr>
+                <tr>
+                  <td><p>Keep Cup 12oz Medium</p></td>
+                  <td><p>&pound;11.95</p></td>
+                </tr>
+                <tr>
+                  <td><p>Keep Cup 16oz Large</p></td>
+                  <td><p>&pound;12.95</p></td>
+                </tr>
+              </table>
+         </div>
+
+        <div class="menu-column">
+
+            <h4>Cake Slice</h4>
+              <table>
+                <tr>
+                  <th></th>
+                  <th><p>Take Out</p></th>
+                </tr>
+                <tr>
+                  <td><p>Carrot Slice</p></td>
+                  <td><p>&pound;6.00</p></td>
+                </tr>
+                <tr>
+                  <td><p>Vanilla Rainbow Slice</p></td>
+                  <td><p>&pound;6.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>Chocolate Caramel Truffle Slice</p></td>
+                  <td><p>&pound;6.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>Vegan Chocolate Rainbow Slice</p></td>
+                  <td><p>&pound;6.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>Red Velvet Slice</p></td>
+                  <td><p>&pound;6.00</p></td>
+                </tr>
+                <tr>
+                  <td><p>Oreo Party Slice</p></td>
+                  <td><p>&pound;6.00</p></td>
+                </tr>
+                <tr>
+                  <td><p>Vegan Raspberry Triple Slice</p></td>
+                  <td><p>&pound;6.00</p></td>
+                </tr>
+              </table>
+          
+            <h4>Whole Cakes</h4>
+              <table>
+                <tr>
+                  <th><p>Whole Cakes 6"</p></th>
+                  <th><p>Take Out</p></th>
+                </tr>
+                <tr>
+                  <td><p>Red Velvet Cake 6"</p></td>
+                  <td><p>&pound;60.00</p></td>
+                </tr>
+                <tr>
+                  <td><p>Oreo Party Cake 6"</p></td>
+                  <td><p>&pound;60.00</p></td>
+                </tr>
+                <tr>
+                  <td><p>Vanilla Rainbow Cake 6"</p></td>
+                  <td><p>&pound;63.00</p></td>
+                </tr>
+                <tr>
+                  <td><p>Chocolate Caramel Truffle 6"</p></td>
+                  <td><p>&pound;65.00</p></td>
+                </tr>
+              </table>
+              <table>
+                <tr>
+                  <th><p>Whole Cakes 8"</p></th>
+                  <th><p>Take Out</p></th>
+                </tr>
+                <tr>
+                  <td><p>Carrot Cake 8"</p></td>
+                  <td><p>&pound;70.00</p></td>
+                </tr>
+                <tr>
+                  <td><p>Vanilla Rainbow Cake 8"</p></td>
+                  <td><p>&pound;72.00</p></td>
+                </tr>
+                <tr>
+                  <td><p>Chocolate Caramel Truffle Cake 8"</p></td>
+                  <td><p>&pound;75.00</p></td>
+                </tr>
+                <tr>
+                  <td><p>Red Velvet Cake 8"</p></td>
+                  <td><p>&pound;70.00</p></td>
+                </tr>
+                <tr>
+                  <td><p>Vegan Raspberry Triple Cake 8"</p></td>
+                  <td><p>&pound;85</p></td>
+                </tr>
+              </table>
+
+         <h4>Cold Drinks</h4>
+              <table>
+                <tr>
+                  <th></th>
+                  <th><p>Take Out</p></th>
+                </tr>
+                <tr>
+                  <td><p>Iced Coffee:</p></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p>Iced Latte</p></td>
+                  <td><p>&pound;2.70</p></td>
+                </tr>
+                <tr>
+                  <td><p>Iced Americano</p></td>
+                  <td><p>&pound;2.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>Iced Matcha</p></td>
+                  <td><p>&pound;3.20</p></td>
+                </tr>
+                <tr>
+                  <td><p>Sodas:</p></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p>Karma Cola</p></td>
+                  <td><p>&pound;2.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>Lemony Lemonade</p></td>
+                  <td><p>&pound;2.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>Gingerella</p></td>
+                  <td><p>&pound;2.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>San Pellegrino</p></td>
+                  <td><p>&pound;2.20</p></td>
+                </tr>
+                <tr>
+                  <td><p>Juices:</p></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p>Still & Sparkling Water</p></td>
+                  <td><p>&pound;1.40</p></td>
+                </tr>
+                <tr>
+                  <td><p>Bottled Juices</p></td>
+                  <td><p>&pound;2.50</p></td>
+                </tr>
+                <tr>
+                  <td><p>Homemade Lemonade</p></td>
+                  <td><p>&pound;2.80</p></td>
+                </tr>
+                <tr>
+                  <td><p>Seasonal Icea Tea</p></td>
+                  <td><p>&pound;2.80</p></td>
+                </tr>
+              </table> 
+
+        </div>
+
+  </div>
+  
+</section>
+          
+        </div>
+
+        {% if section.settings.button_label != blank %}
+          <div class="button-container" data-cc-animate data-cc-animate-delay="0.5s">
+            {% capture button_class %}
+              {% if section.settings.button_style == 'link' %}
+                link-display
+              {% else %}
+                btn
+                {% if section.settings.enlarge_text %}btn--large{% endif %}
+                {% if section.settings.button_style == 'secondary' %}btn--secondary{% endif %}
+                {% if section.settings.button_style == 'auto' %}btn-auto{% endif %}
+              {% endif %}
+            {% endcapture %}
+
+            {% if section.settings.button_link != blank %}
+              <a class="{{ button_class }}" href="{{ section.settings.button_link }}">
+            {% else %}
+              <span class="{{ button_class }}">
+            {% endif %}
+
+              {{ section.settings.button_label | escape }}
+
+            {% if section.settings.button_link != blank %}
+              </a>
+            {% else %}
+              </span>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Store Menu",
+    "settings": [
+      {
+        "type": "select",
+        "id": "section_spacing",
+        "label": "Section spacing",
+        "options": [
+          {
+            "value": "extra_small",
+            "label": "Extra small"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          }
+        ],
+        "default": "medium"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Rich text"
+      },
+      {
+        "type": "range",
+        "id": "title_size",
+        "min": 16,
+        "max": 80,
+        "step": 2,
+        "unit": "px",
+        "label": "Heading text size",
+        "default": 40
+      },
+      {
+        "type": "checkbox",
+        "id": "heading_h1",
+        "label": "Set as primary page heading",
+        "info": "Uses <h1> tag. One per page recommended. [Learn more](https://cleancanvas.co.uk/support/canopy/seo)",
+        "default": false
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<p>Use this text to share information about your store with your customers.</p><p>Describe products, share announcements, or welcome customers to your store.</p>"
+      },
+      {
+        "type": "checkbox",
+        "id": "enlarge_text",
+        "label": "Enlarge text",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Button style",
+        "default": "primary",
+        "options": [
+          {
+            "label": "Button - primary",
+            "value": "primary"
+          },
+          {
+            "label": "Button - secondary",
+            "value": "secondary"
+          },
+          {
+            "label": "Button - auto",
+            "value": "auto"
+          },
+          {
+            "label": "Link",
+            "value": "link"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "default": "center",
+        "options": [
+          {
+            "label": "Left",
+            "value": "left"
+          },
+          {
+            "label": "Center",
+            "value": "center"
+          },
+          {
+            "label": "Right",
+            "value": "right"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "full_width",
+        "label": "Wide display",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "no_padding",
+        "label": "Reduce spacing",
+        "default": false
+      },
+      {
+        "type": "color",
+        "id": "color_bg",
+        "label": "Background color"
+      },
+      {
+        "id": "alternate_bg_color",
+        "type": "checkbox",
+        "label": "Use alternate section color",
+        "default": false
+      }
+    ],
+    "presets": [
+      {
+        "name": "Store Menu",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}

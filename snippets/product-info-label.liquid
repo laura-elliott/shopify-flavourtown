@@ -1,0 +1,36 @@
+  {%- liquid
+     assign info_vegan = false
+     if product.tags contains 'Vegan'
+        assign info_vegan = true
+      endif
+
+     assign info_ffg = false
+     if product.tags contains 'Free From Gluten'
+        assign info_ffg = true
+      endif
+
+     assign info_customise = false
+     if product.tags contains 'Customise Cake'
+        assign info_customise = true
+      endif
+  -%}
+
+{% comment %} Label, Top RHS {% endcomment %}
+{%- if info_customise -%}
+<span class="product-info-label-1">
+    <span class="info-label-customise">Customisable</span>
+</span>
+{%- endif -%}
+
+{% comment %} Label, Bottom LHS {% endcomment %}
+{%- if info_vegan or info_ffg -%}
+<span class="product-info-label">
+  {%- if info_vegan -%}
+    <a href="/collections/vegan-cakes-cupcakes" class="info-label-vegan">Vegan</a>
+  {%- endif -%}
+  
+  {%- if info_ffg -%}
+    <a href="/collections/free-from-gluten-cakes-cupcakes" class="info-label-ffg">Free from gluten</a>
+  {%- endif -%}
+</span>
+{%- endif -%}

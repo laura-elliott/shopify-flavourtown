@@ -1,0 +1,234 @@
+<section id="section-id-{{ section.id }}" class="border-top section-id-{{ section.id }} section">
+  <div class="container reduced-column">
+
+{%- for block in section.blocks -%}
+
+<section class="section">
+  
+  <div class="job-listing-section" data-cc-animate>
+    
+    <div class="job-listing-header">
+      
+      <div class="job-overview">
+        {% if block.settings.job_title != blank %}
+          <h2 class="h2" data-cc-animate data-cc-animate-delay="0.3s">{{ block.settings.job_title | newline_to_br }}</h2>
+        {% endif %}
+        
+        <div class="rte" data-cc-animate data-cc-animate-delay="0.4s">
+          <p>{{ block.settings.summary_text }}</p>
+        </div>
+      </div>
+
+      <div class="job-location">
+        {% if block.settings.location == "park_royal" %}
+          <p class="location">{% render 'svg-careers-location' %} Park Royal Bakery, NW10</p>
+        {% elsif block.settings.location == "fulham" %}
+          <p class="location">{% render 'svg-careers-location' %} Fulham Shop, SW6</p>
+        {% elsif block.settings.location == "richmond" %}
+          <p class="location">{% render 'svg-careers-location' %} Richmond Shop, TW9</p>
+        {% endif %}
+      </div>  
+    </div>
+
+    <div class="job-listing-footer">
+
+      {% if block.settings.job_type == "part_time" %}
+        <p class="job_type">{% render 'svg-careers-job-type' %} Part-time</p>
+      {% elsif block.settings.job_type == "full_time" %}
+        <p class="job_type">{% render 'svg-careers-job-type' %} Full-time</p>
+      {% endif %}
+      
+      {% if block.settings.salary != blank %}
+        <p class="salary">{% render 'svg-careers-salary' %} {{ block.settings.salary }}</p>
+      {% endif %}
+      
+      {% if block.settings.years_experience != blank %}
+        <p class="years_experience">{% render 'svg-careers-years_experience' %} {{ block.settings.years_experience }}</p>
+      {% endif %}
+    
+    </div>
+
+    <div class="so-accordion-wrapper">
+  <div class="so-tab">
+
+    <input id="so-tab-1" type="checkbox" name="tabs" />
+    <label for="so-tab-1"></label>
+
+    <div class="rte so-tab-content job-listing-content">
+
+      {% if block.settings.start_date != blank %}
+        <p><strong>Start date:</strong> {{ block.settings.start_date }}</p>
+      {% endif %}
+      
+      {% if block.settings.schedule != blank %}
+        <p><strong>Schedule:</strong> {{ block.settings.schedule }}</p>
+      {% endif %}
+      
+      {% if block.settings.full_description != blank %}
+        <h4>Description</h4>
+        {{ block.settings.full_description }}
+      {% endif %}
+      
+      {% if block.settings.essential_skills != blank %}
+        <h4>Essential Skills</h4>
+        {{ block.settings.essential_skills }}
+      {% endif %}
+      
+      {% if block.settings.desirable_skills != blank %}
+        <h4>Desirable Skills</h4>
+        {{ block.settings.desirable_skills }}
+      {% endif %}
+      
+      {% if block.settings.experience != blank %}
+        <h4>Experience</h4>
+        {{ block.settings.experience }}
+      {% endif %}
+      
+      {% if block.settings.benefits != blank %}
+        <h4>Benefits</h4>
+        {{ block.settings.benefits }}
+      {% endif %}
+
+      {% if section.settings.to_apply != blank %}
+        {{ section.settings.to_apply }}
+      {% endif %}
+
+    </div>
+
+
+  </div>
+    </div>
+    
+  </div>
+  
+</section>
+
+  {%- endfor -%}
+  
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Job Listing",
+    "settings": [
+      {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "to_apply",
+        "label": "How to apply"
+      }
+     ],
+    "blocks": [
+          {
+      "type": "Job",
+      "name": "Job",
+      "settings": [
+      {
+        "type": "text",
+        "id": "job_title",
+        "label": "Job Title"
+      },
+      {
+        "type": "textarea",
+        "id": "summary_text",
+        "label": "Summary text"
+      },
+      {
+        "type": "select",
+        "id": "location",
+        "label": "Location",
+        "default": "park_royal",
+        "options": [
+          {
+            "label": "Park Royal, NW10",
+            "value": "park_royal"
+          },
+          {
+            "label": "Fulham, SW6",
+            "value": "fulham"
+          },
+          {
+            "label": "Richmond, SW6",
+            "value": "richmond"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "job_type",
+        "label": "Job Type",
+        "default": "part_time",
+        "options": [
+          {
+            "label": "Part-time",
+            "value": "part_time"
+          },
+          {
+            "label": "Full-time",
+            "value": "full_time"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "salary",
+        "label": "Salary"
+      },
+      {
+        "type": "text",
+        "id": "years_experience",
+        "label": "Years Experience"
+      },
+      {
+        "type": "text",
+        "id": "start_date",
+        "label": "Start Date"
+      },
+      {
+        "type": "text",
+        "id": "schedule",
+        "label": "Schedule"
+      },
+      {
+        "type": "richtext",
+        "id": "full_description",
+        "label": "Full Description"
+      },
+      {
+        "type": "richtext",
+        "id": "essential_skills",
+        "label": "Essential Skills"
+      },
+      {
+        "type": "richtext",
+        "id": "desirable_skills",
+        "label": "Desirable Skills"
+      },
+      {
+        "type": "richtext",
+        "id": "experience",
+        "label": "Experience"
+      },
+      {
+        "type": "richtext",
+        "id": "benefits",
+        "label": "Benefits"
+      }
+      ]
+          }
+    ],
+    "presets": [
+      {
+        "name": "Job Listing",
+        "settings": {},
+        "blocks": [
+        ]
+      }
+    ]
+  }
+{% endschema %}

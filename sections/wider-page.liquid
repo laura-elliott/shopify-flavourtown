@@ -1,0 +1,10 @@
+<div class="section container">
+    <h1 class="page-title" data-cc-animate>{{ page.title }}</h1>
+    <div class="rte" data-cc-animate data-cc-animate-delay="0.2s">{{ page.content | replace: 'fullwidth"', '" data-fullwidth="true"' }}</div>
+</div>
+
+{% schema %}
+{
+  "name": "Wider Page"
+}
+{% endschema %}
