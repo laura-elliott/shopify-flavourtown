@@ -89,6 +89,7 @@
     "after_add_to_cart": "page",
     "cart_savings_color": "{{ shop.brand.colors.secondary[0].background }}",
     "favicon": "shopify://shop_images/flavourtown-favicon.png",
+    "image_quality": "1.25",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_sidebar_background_color": "#f4f4f4",
