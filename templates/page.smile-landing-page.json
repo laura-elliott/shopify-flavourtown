@@ -61,8 +61,8 @@
         "41d763a2-2f94-4c26-8664-bf6ed4fe8f86": {
           "type": "shopify://apps/smile-io/blocks/smile-landing-page-how-it-works/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
           "settings": {
-            "primary_colour": "#ffffff",
-            "secondary_colour": "#ff00b0",
+            "primary_colour": "{{ shop.brand.colors.primary[0].foreground }}",
+            "secondary_colour": "{{ shop.brand.colors.secondary[0].background }}",
             "title_text": "How it works",
             "step1_heading_text": "Join",
             "step1_description_text": "Sign up or login to start earning straight away.",
