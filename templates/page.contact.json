@@ -11,10 +11,44 @@
   "sections": {
     "main": {
       "type": "main-contact",
+      "disabled": true,
       "settings": {
         "show_contact_title": true,
         "heading_size": "h2",
         "heading_align": "text-center"
+      }
+    },
+    "rich_text_gaacdx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QHJm3W": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact us",
+            "heading_size": "h2",
+            "heading_h1": true
+          }
+        },
+        "text_ciVmMP": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>We started Flavourtown to help you celebrate all of life's special moments, big or small, with the world's best cake! Cake makes people happy, and we LOVE talking about it.</strong></p><p>The easiest way to contact Flavourtown is to email <a href=\"mailto:info@flavourtownbakery.co.uk\" title=\"mailto:info@flavourtownbakery.co.uk\">info@flavourtownbakery.co.uk</a> or complete the form below.</p><p>We’ll always try to get back to you within 60 minutes during office hours.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QHJm3W",
+        "text_ciVmMP"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
       }
     },
     "contact_form_aRydcx": {
@@ -57,7 +91,7 @@
       ],
       "name": "Contact form",
       "settings": {
-        "heading": "Contact form",
+        "heading": "",
         "heading_align": "text-center",
         "image_position": "top",
         "color_scheme": "none",
@@ -132,6 +166,7 @@
   },
   "order": [
     "main",
+    "rich_text_gaacdx",
     "contact_form_aRydcx",
     "1dada225-8f53-4e0d-b650-f7bb989b476b",
     "rich_text_kn9Njq"
