@@ -44,6 +44,7 @@
     "body_font": "archivo_n3",
     "body_font_size": 15,
     "navigation_font": "archivo_n4",
+    "section_gap": "24",
     "input_button_border_radius": 0,
     "overlay_border_radius": 0,
     "show_breadcrumbs_product": false,
