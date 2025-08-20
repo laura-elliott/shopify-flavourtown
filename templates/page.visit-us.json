@@ -1,1 +1,301 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"9e87b135-87a5-45b3-b355-16aefd1eb2d1":{"type":"rich-text","settings":{"full_width":false}},"c9df00b3-9567-41fc-adea-631ea1b789fe":{"type":"rich-text","settings":{"full_width":true}},"61da7f37-1bd8-4bf0-aa21-d70556532138":{"type":"rich-text","disabled":true,"settings":{"full_width":false}},"aae34d65-d757-41a2-ab59-983783646bb7":{"type":"store-menu","disabled":true,"settings":{"section_spacing":"medium","subheading":"","title":"","title_size":40,"heading_h1":false,"text":"","enlarge_text":false,"button_label":"","button_link":"","button_style":"primary","text_alignment":"center","full_width":true,"no_padding":false,"color_bg":"","alternate_bg_color":false}},"ff7cb0bd-b771-4ce4-8760-c8eb5905e738":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"<br \/><br \/>"}},"052f7cc3-90ef-4f2d-a333-259c25227e3b":{"type":"rich-text","settings":{"full_width":false}},"dd818315-8c53-4c41-9c8d-7715fc404c5e":{"type":"logo-list","blocks":{"29bfd66a-b7d8-486c-ad9b-f5efe1632363":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/callebaut-logo.jpg"}},"d9c113b9-0649-44c9-870a-3a5df8ae3132":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/prana-chai-logo.jpg"}},"a0b534a4-5bff-4d19-a1bc-f5f42942b19c":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/storm-tea-logo.jpg"}},"63990236-403b-4d9b-943d-aa6358354045":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/keep-cup-logo.jpg"}},"92f38b04-47b3-4e04-b1bc-f0d080df5919":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/square-mile-coffee.jpg"}}},"block_order":["29bfd66a-b7d8-486c-ad9b-f5efe1632363","d9c113b9-0649-44c9-870a-3a5df8ae3132","a0b534a4-5bff-4d19-a1bc-f5f42942b19c","63990236-403b-4d9b-943d-aa6358354045","92f38b04-47b3-4e04-b1bc-f0d080df5919"],"settings":{"title":"","layout":"grid","image_opacity":100}}},"order":["main","9e87b135-87a5-45b3-b355-16aefd1eb2d1","c9df00b3-9567-41fc-adea-631ea1b789fe","61da7f37-1bd8-4bf0-aa21-d70556532138","aae34d65-d757-41a2-ab59-983783646bb7","ff7cb0bd-b771-4ce4-8760-c8eb5905e738","052f7cc3-90ef-4f2d-a333-259c25227e3b","dd818315-8c53-4c41-9c8d-7715fc404c5e"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "heading_size": "h2",
+        "heading_align": "text-center"
+      }
+    },
+    "rich_text_WCkEKm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7UdDTT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visit Flavourtown",
+            "heading_size": "h2",
+            "heading_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_7UdDTT"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "media_with_text_7fjfJ8": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_n8NPmr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Follow your nose to Freshly Baked Happiness™",
+            "heading_size": "h4",
+            "heading_h1": false
+          }
+        },
+        "text_rTEBHx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Fulham store is open from 10am to 6.30pm, seven days a week with a full selection of freshly baked cupcakes, slices of cake, our thick NYC-style cookies and our award-winning brownies. Our baristas craft Square Mile coffee beans into amazing lattes and flat whites and we have all the teas, sodas and hot chocolate you could ever want. </p><p>You can take your goodies away or come and sit in for a gossip over a cupcake and coffee!</p><p>771 Fulham Road<br/>London<br/>SW6 5HA</p><p><a href=\"tel:02036092016\" title=\"tel:02035531089\">0203 553 1089 / </a><a href=\"https://flavourtown-test-site.myshopify.com/pages/contact\" title=\"Contact\">info@flavourtownbakery.co.uk</a></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_n8NPmr",
+        "text_rTEBHx"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "image": "shopify://shop_images/flavourtown-bakery-in-fulham.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "right",
+        "image_fit": "cover",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-center",
+        "color_scheme": "none",
+        "only_content_color_scheme": false
+      }
+    },
+    "9e87b135-87a5-45b3-b355-16aefd1eb2d1": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3EezRH": {
+          "type": "heading",
+          "settings": {
+            "heading": "On the counter",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_FVFyDG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It doesn’t matter what day of the week you pop in; you’ll always find the smell of freshly baked happiness wafting through our shop. We’re really proud of baking fresh every day, that means our talented team of bakers and decorators turn on the lights and ovens whilst you’re still asleep and mix, bake and decorate some of the best cakes, cupcakes and brownies in the country. </p><p>It’s not just about cake though! Our baristas make fresh coffee whilst you wait from freshly ground Square Mile Coffee beans and Estate Dairy milk directly from the Chew Valley near Bristol. We have all of the alternative milks you could ever want along with organic teas from Storm Tea in loads of delicious loose-leaf blends. </p><p>We also have a full range of sodas and juices to choose from as well. </p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3EezRH",
+        "text_FVFyDG"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "1",
+        "full_width": false,
+        "prevent_animation": false
+      }
+    },
+    "multi_column_bnReV6": {
+      "type": "multi-column",
+      "blocks": {
+        "column_9YUg49": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/flavourtown-bakery---store-page-014.jpg",
+            "media_scale": 100,
+            "heading": "Cakes & Cupcakes",
+            "text": "<p>Everything in our stores is baked fresh, which means your slice of Red Velvet or Chocolate Salted Caramel Truffle cake will always be moist, divine and utterly delicious. </p><p>Our award-winning cupcakes are available to eat in or to take away in our iconic neon pink boxes! All of our in-store products are individually priced so you can mix and match and make up your own dream selection of freshly Baked Happiness ™</p><p>We even have a selection of whole cakes for grab-and-go purchase every day.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_UY6yK4": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/flavourtown-bakery---store-page-012.jpg",
+            "media_scale": 100,
+            "heading": "Cookies & Brownies",
+            "text": "<p>Our full range of NYC-style chonky cookies are available every day and we can even heat them up for you to enjoy that crispy outside and warm gooey centre. </p><p>Don't forget the brownies! Choose from our Great Taste Award Human Catnip (salted caramel), our viral instaworthy Mars Bar or Free From Gluten Cheesecake brownies. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_HtBqjG": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/flavourtown-bakery---store-page-01.jpg",
+            "media_scale": 100,
+            "heading": "Ordering Cakes",
+            "text": "<p>If you have a celebration coming up and you need help ordering a cake, pop in and speak to the gang! They’ll be able to give you a hand with everything from flavour recommendations to placing an order for an amazing birthday cake.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_BAFjmJ": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/flavourtown-bakery---store-page-013.jpg",
+            "media_scale": 100,
+            "heading": "Weekend Specials",
+            "text": "<p>We like to switch things up and invent mind blowing new flavour combos so every weekend you’ll find a handful of must-have cakes and cupcakes! Keep an eye on our socials to find out what’s coming this weekend.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_9YUg49",
+        "column_UY6yK4",
+        "column_HtBqjG",
+        "column_BAFjmJ"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "title": "",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "layout": "grid",
+        "column_size": "large",
+        "column_align": "center",
+        "media_align": "text-center",
+        "image_ratio": "1.77",
+        "color_scheme": "none",
+        "button_style": "btn btn--secondary"
+      }
+    },
+    "rich_text_4PiUHi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qTXKnj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Suppliers",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_zHiNdx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alongside our award winning cakes and cupcakes we also serve London’s best coffee with our beans coming from the famous Square Mile Coffee Roasters. We also have a full range of sodas and cold pressed juices alongside the BEST hot chocolate in London using Original Beans organic chocolate.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qTXKnj",
+        "text_zHiNdx"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "dd818315-8c53-4c41-9c8d-7715fc404c5e": {
+      "type": "logo-list",
+      "blocks": {
+        "29bfd66a-b7d8-486c-ad9b-f5efe1632363": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/callebaut-logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "d9c113b9-0649-44c9-870a-3a5df8ae3132": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/prana-chai-logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "a0b534a4-5bff-4d19-a1bc-f5f42942b19c": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/storm-tea-logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "63990236-403b-4d9b-943d-aa6358354045": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/keep-cup-logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "92f38b04-47b3-4e04-b1bc-f0d080df5919": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/square-mile-coffee.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "29bfd66a-b7d8-486c-ad9b-f5efe1632363",
+        "d9c113b9-0649-44c9-870a-3a5df8ae3132",
+        "a0b534a4-5bff-4d19-a1bc-f5f42942b19c",
+        "63990236-403b-4d9b-943d-aa6358354045",
+        "92f38b04-47b3-4e04-b1bc-f0d080df5919"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "layout": "grid",
+        "spacing": 32,
+        "logo_grid_align": "justify-center",
+        "image_opacity": 100,
+        "color_scheme": "none",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WCkEKm",
+    "media_with_text_7fjfJ8",
+    "9e87b135-87a5-45b3-b355-16aefd1eb2d1",
+    "multi_column_bnReV6",
+    "rich_text_4PiUHi",
+    "dd818315-8c53-4c41-9c8d-7715fc404c5e"
+  ]
+}
