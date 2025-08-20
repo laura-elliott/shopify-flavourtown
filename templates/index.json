@@ -542,7 +542,7 @@
         "heading_nkBVc8": {
           "type": "heading",
           "settings": {
-            "heading": "Fulham Store",
+            "heading": "HOT FLAVOURTOWN NEWS",
             "heading_size": "h4",
             "heading_h1": false
           }
@@ -550,15 +550,15 @@
         "text_4a7pVr": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Fulham Store opened in December 2015 and since has become one of the UK's most popular and successful cake shops.</p><p>We are open from 10am to 6.30pm seven days a week for dine in or take away.</p>",
+            "text": "<p>Our iconic Flavourtown Favourites Boxes have just had a glow up! Check out or brand new selections, perfect for gifting!</p>",
             "enlarge_text": false
           }
         },
         "button_kFRizk": {
           "type": "button",
           "settings": {
-            "button_label": "Get Directions",
-            "button_link": "https://www.google.com/maps/place/Flavourtown+Bakery/@51.4765183,-0.2064091,766m/data=!3m2!1e3!4b1!4m6!3m5!1s0x48760f9c40ef02bb:0x1984333155d10045!8m2!3d51.476515!4d-0.2038342!16s%2Fg%2F11f33m8ftd?entry=ttu&g_ep=EgoyMDI1MDgxOC4wIKXMDSoASAFQAw%3D%3D",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/favourite-boxes",
             "button_style": "btn btn--primary"
           }
         }
@@ -570,16 +570,16 @@
       ],
       "name": "Media with text",
       "settings": {
-        "image": "shopify://shop_images/IMG_3892-2-CROP--SHOP-PICTURES-FULHAM.jpg",
+        "image": "shopify://shop_images/Classics-Favourite-Box-6-Flavours-Flavourtown-Bakery-2.jpg",
         "video_external": "",
         "video_description": "",
         "video_autoplay": false,
-        "layout": "left",
-        "image_fit": "contain",
+        "layout": "right",
+        "image_fit": "cover",
         "media_width": 50,
         "media_scale": 100,
         "text_align": "text-start",
-        "color_scheme": "none",
+        "color_scheme": "1",
         "only_content_color_scheme": false
       }
     },
