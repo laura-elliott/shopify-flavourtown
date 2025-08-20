@@ -147,28 +147,34 @@
             "text": "<p>While we are not a Halal Monitoring Committee-approved supplier we do adhere to their guidelines, and as such, all of the sweets we use are vegetarian. Some of the marshmallows we use are vegan, but some aren’t so please do check with us if you are not sure. We also use gold spray as part of the decorations on some of our products. This uses ethanol as a carrier for the gold lustre dust however it evaporates, and the HMC have advised that it is safe for those who follow a Halal diet.</p><p>We bake with care and attention to detail but sometimes a piece of eggshell, fruit seeds or stones can make its way into our cakes.</p>"
           }
         },
+        "category_KBBqBm": {
+          "type": "category",
+          "settings": {
+            "text": "Storage"
+          }
+        },
         "question_DBnf9Y": {
           "type": "question",
           "settings": {
             "icon": "none",
-            "heading": "Frequently asked question",
-            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
+            "heading": "How should I store my cupcakes, and how long do they keep for?",
+            "text": "<p>In the unlikely event that your cupcakes don't vanish instantly, they will keep for up to two days. Flavourtown cupcakes also freeze very well.</p>"
           }
         },
         "question_X7t7Fp": {
           "type": "question",
           "settings": {
             "icon": "none",
-            "heading": "Frequently asked question",
-            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
+            "heading": "How should I store my cake, and how long will it keep for?",
+            "text": "<p>Our delectable cakes are best eaten on the day you receive them or the next day however, for online orders, they can be eaten up to 4 days after the receiving date. You can also freeze any leftover slices for up to 3 months though the decorations might not be quite the same after defrosting.</p><p>When you receive your cake, please store it in a cool, dark place; on very hot days, you can keep it in the fridge, but please make sure to take it out at least 2 hours before to bring it to room temperature.</p>"
           }
         },
         "question_aN6AdF": {
           "type": "question",
           "settings": {
             "icon": "none",
-            "heading": "Frequently asked question",
-            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
+            "heading": "How should I store brownies, and how long do they keep for?",
+            "text": "<p>Our brownies are best stored in the fridge and will keep for a week. At room temperature, they will be good for four days.</p>"
           }
         },
         "question_M8gB7M": {
@@ -194,6 +200,7 @@
         "question_Bpmmdg",
         "question_c8ga3D",
         "question_iBKeyw",
+        "category_KBBqBm",
         "question_DBnf9Y",
         "question_X7t7Fp",
         "question_aN6AdF",
