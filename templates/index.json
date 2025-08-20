@@ -489,6 +489,100 @@
         "prevent_animation": false
       }
     },
+    "media_with_text_GLjYAA": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_gzWcdb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fulham Store",
+            "heading_size": "h4",
+            "heading_h1": false
+          }
+        },
+        "text_y8e3Rp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Fulham Store opened in December 2015 and since has become one of the UK's most popular and successful cake shops.</p><p>We are open from 10am to 6.30pm seven days a week for dine in or take away.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_LRBxit": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Directions",
+            "button_link": "https://www.google.com/maps/place/Flavourtown+Bakery/@51.4765183,-0.2064091,766m/data=!3m2!1e3!4b1!4m6!3m5!1s0x48760f9c40ef02bb:0x1984333155d10045!8m2!3d51.476515!4d-0.2038342!16s%2Fg%2F11f33m8ftd?entry=ttu&g_ep=EgoyMDI1MDgxOC4wIKXMDSoASAFQAw%3D%3D",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gzWcdb",
+        "text_y8e3Rp",
+        "button_LRBxit"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "image": "shopify://shop_images/IMG_3892-2-CROP--SHOP-PICTURES-FULHAM.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "none",
+        "only_content_color_scheme": false
+      }
+    },
+    "media_with_text_hjCzwd": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_nkBVc8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fulham Store",
+            "heading_size": "h4",
+            "heading_h1": false
+          }
+        },
+        "text_4a7pVr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Fulham Store opened in December 2015 and since has become one of the UK's most popular and successful cake shops.</p><p>We are open from 10am to 6.30pm seven days a week for dine in or take away.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_kFRizk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Directions",
+            "button_link": "https://www.google.com/maps/place/Flavourtown+Bakery/@51.4765183,-0.2064091,766m/data=!3m2!1e3!4b1!4m6!3m5!1s0x48760f9c40ef02bb:0x1984333155d10045!8m2!3d51.476515!4d-0.2038342!16s%2Fg%2F11f33m8ftd?entry=ttu&g_ep=EgoyMDI1MDgxOC4wIKXMDSoASAFQAw%3D%3D",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nkBVc8",
+        "text_4a7pVr",
+        "button_kFRizk"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "image": "shopify://shop_images/IMG_3892-2-CROP--SHOP-PICTURES-FULHAM.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "none",
+        "only_content_color_scheme": false
+      }
+    },
     "fb9efcc5-b281-4f36-adde-06254a9fb21d": {
       "type": "custom-liquid",
       "settings": {
@@ -588,6 +682,8 @@
     "icons_with_text_kghDrX",
     "custom_liquid_BiJE7d",
     "de045bda-e660-46c2-9ff5-b754b461544b",
+    "media_with_text_GLjYAA",
+    "media_with_text_hjCzwd",
     "fb9efcc5-b281-4f36-adde-06254a9fb21d",
     "1693385323510e60b9",
     "logo_list_98xUV9",
