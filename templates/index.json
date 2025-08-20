@@ -144,7 +144,7 @@
         "collection": "customer-favourites",
         "layout": "grid",
         "card_size_mobile": "small",
-        "card_size": "small",
+        "card_size": "large",
         "products_to_show": 4,
         "color_scheme": "none",
         "card_contain": false,
@@ -225,18 +225,65 @@
         "full_width": false
       }
     },
-    "87f34ff0-3986-4d24-acb0-38876d84d949": {
-      "type": "custom-liquid",
+    "scrolling_banner_9LbHML": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_fdGT3z": {
+          "type": "text",
+          "settings": {
+            "text": "Freshly baked happiness since 2013",
+            "link": "",
+            "font": "heading",
+            "heading_size": "h4"
+          }
+        },
+        "icon_tXhatk": {
+          "type": "icon",
+          "settings": {
+            "icon": "heart",
+            "icon_size": 32
+          }
+        }
+      },
+      "block_order": [
+        "text_fdGT3z",
+        "icon_tXhatk"
+      ],
+      "name": "Scrolling banner",
       "settings": {
-        "custom_liquid": "<div class=\"marquee\">\n  <div>\n    <span>Freshly Baked Happiness since 2013</span>\n  </div>\n</div>\n\n<style>\n.marquee {\n  height: 25px;\n  width: 100%;\n\n  overflow: hidden;\n  position: relative;\n}\n\n.marquee div {\n  display: block;\n  width: 200%;\n  height: 30px;\n\n  position: absolute;\n  overflow: hidden;\n\n  animation: marquee 10s linear infinite;\n}\n\n.marquee span {\n  float: left;\n\ntext-shadow: 45ch 0 currentColor, calc(45ch * 2) 0 currentColor, calc(45ch * 3) 0 currentColor, calc(45ch * 4) 0 currentColor, calc(45ch * 5) 0 currentColor, calc(45ch * 6) 0 currentColor;\n}\n\n@keyframes marquee {\n  0% { left: 0; }\n  100% { left: -100%; }\n}\n\n</style>",
-        "section_height": "default",
-        "full_width": false,
+        "section_height": "xsmall",
+        "spacing": 32,
+        "speed": 24,
+        "direction": "normal",
+        "pausable": true,
+        "color_scheme": "1",
         "dividers": "none",
-        "prevent_animation": false
+        "prevent_animation": true
       }
     },
     "35b86613-768b-4221-ad11-cf0564bcbc5e": {
       "type": "rich-text",
+      "blocks": {
+        "heading_rb7jKn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Everyone deserves amazing cake.",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_ieGLAJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From our iconic layer cakes and cupcakes to our impossible-to-put-down cookies, our award-winning bakes are perfect for every celebration. </p><p>So, whether you’re throwing an epic Birthday bash, sending a gift or just fancy a box of Flavourtown Freshly Baked Happiness™, choose London's best cakes and cupcakes.</p><p>Plus, we hand deliver across London. </p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rb7jKn",
+        "text_ieGLAJ"
+      ],
       "settings": {
         "text_position": "justify-center",
         "text_align": "text-center",
@@ -262,6 +309,115 @@
         "tint_gradient": "",
         "lazyload": true,
         "prevent_animation": false
+      }
+    },
+    "media_grid_4JL7MY": {
+      "type": "media-grid",
+      "blocks": {
+        "media_NqKDaQ": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/flavourtown-bakery-bling-cakes---blog-header3.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 2,
+            "subheading": "",
+            "title": "<p>Cakes</p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "shopify://collections/cakes",
+            "overlay_position": "justify-center items-center",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 10,
+            "tint_gradient": ""
+          }
+        },
+        "media_MdU7kE": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/flavourtown-bakery-cookies---blog-header4.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Cookies</p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-center items-center",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 10,
+            "tint_gradient": ""
+          }
+        },
+        "media_tjBdxC": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/Flavourtown-bakery-FAB-2025-CUPCAKES.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 2,
+            "subheading": "",
+            "title": "<p>Cupcakes</p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "shopify://collections/cakes",
+            "overlay_position": "justify-center items-center",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 10,
+            "tint_gradient": ""
+          }
+        },
+        "media_znXB9C": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/Red-Velvet-Oreo-Brownie-Flavourtown-Bakery.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Brownies</p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-center items-center",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 10,
+            "tint_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_NqKDaQ",
+        "media_MdU7kE",
+        "media_tjBdxC",
+        "media_znXB9C"
+      ],
+      "name": "Media grid",
+      "settings": {
+        "title": "",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "gallery_cols_max": 2,
+        "mobile_carousel": false,
+        "enable_gap": true,
+        "text_overlay_spacing": true,
+        "gallery_cols_min": "1",
+        "fixed_height_desktop": 120,
+        "fixed_height_mobile": 300,
+        "section_color_scheme": "none",
+        "color_scheme": "white",
+        "transparent_content_color": "{{ shop.brand.colors.primary[0].foreground }}",
+        "overlay_border_radius": 0
       }
     },
     "fb9efcc5-b281-4f36-adde-06254a9fb21d": {
@@ -357,9 +513,10 @@
     "1590506747837",
     "1744202119b95c371c",
     "9db06b71-36fa-415c-a453-2ac9e6bc4dca",
-    "87f34ff0-3986-4d24-acb0-38876d84d949",
+    "scrolling_banner_9LbHML",
     "35b86613-768b-4221-ad11-cf0564bcbc5e",
     "de045bda-e660-46c2-9ff5-b754b461544b",
+    "media_grid_4JL7MY",
     "fb9efcc5-b281-4f36-adde-06254a9fb21d",
     "1693385323510e60b9",
     "logo_list_98xUV9",
