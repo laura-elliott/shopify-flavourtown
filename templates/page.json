@@ -63,44 +63,44 @@
             "text": "<p>When we use words like 'worlds best ingredients' and 'the best ingredients money can buy', you probably yawn because you've seen it on a million other bakery websites. What some bakeries mean by this and what WE mean by this is wildly different. </p><ul><li>Lescure AOP butter imported from France </li><li>Free Range Eggs</li><li>Organic flour from Shipton Mill and Doves Farm.</li><li>Organic caster, brown and icing sugar from Tate & Lyle.</li><li>Reno X chocolate from Italy. Callebaut chocolate and Belgian<br/>cocoa.</li><li>Madagascan vanilla extract - NEVER essence. </li></ul><p><strong>Provenance is important to Flavourtown; we're passionate about what goes into our food! The quality of what you put in TOTALLY dictates the finished product's taste. Where our competitors use cheaper, inferior<br/>ingredients, we prefer to go high and charge a fair price that reflects the artistry, small-batch baking and extremely high quality that goes into our products. </strong></p>"
           }
         },
-        "question_8939gE": {
-          "type": "question",
-          "settings": {
-            "icon": "none",
-            "heading": "How long will it take to receive my order?",
-            "text": "<p>Standard shipping normally takes 3-5 days. Next day shipping is available on all domestic orders (for an additional charge). International shipping times depend on the products and destination (estimated at checkout).</p>"
-          }
-        },
         "category_xPEzhB": {
           "type": "category",
           "settings": {
-            "text": "Returns and Refunds"
+            "text": "Cakes"
           }
         },
         "question_ynBP9b": {
           "type": "question",
           "settings": {
             "icon": "none",
-            "heading": "How do I return a product?",
-            "text": "<p>Items must be returned within 30 days after receiving your order. Items must be returned in the same condition in which they were received, be unworn/unused, have any tags still attached, and include all the original packaging.</p>"
+            "heading": "How high / tall are your cakes?",
+            "text": "<p>Our main range of<a href=\"https://www.flavourtownbakery.co.uk/collections/cakes\" title=\"Flavourtown Bakery Cake Collection | Handcrafted Cakes Freshly Baked in London\"> layer cakes</a> are four layers high unless otherwise stated. Rainbow cakes are 6 layers high, and our Simply Amazing - Amazingly Simple cakes are three layers.</p><p>Products on our site are handmade and hand-finished, and as such, these may vary from the images shown on our site; images of the products on our site are for illustrative purposes only.</p>"
           }
         },
         "question_UkkXCm": {
           "type": "question",
           "settings": {
             "icon": "none",
-            "heading": "How long will it take to receive my refund?",
-            "text": "<p>Refunds are processed within 7 days from when we receive the item(s).</p>"
+            "heading": "Can I customise my cake?",
+            "text": "<p>We offer personalisation options to add your own message to our range of cakes or cupcakes as well as our edible image options. However, if you require anything more than this, your order will fall under our bespoke orders section.</p>"
+          }
+        },
+        "question_ijw4Ya": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Can I have bespoke cakes and cupcakes?",
+            "text": "<p>Our bespoke service is priced on an order-by-order basis and is subject to availability; please email info@flavourtownbakery.co.uk for help<br/>with your order.</p>"
           }
         }
       },
       "block_order": [
         "category_BBAbR6",
         "question_irRWqa",
-        "question_8939gE",
         "category_xPEzhB",
         "question_ynBP9b",
-        "question_UkkXCm"
+        "question_UkkXCm",
+        "question_ijw4Ya"
       ],
       "name": "Collapsible content",
       "settings": {
