@@ -1,1 +1,130 @@
-{"type":"footer","name":"Footer Group","sections":{"icons-with-text":{"type":"icons-with-text","blocks":{"icons-with-text-1":{"type":"item","settings":{"icon":"chat_bubble","use_custom_icon_color":false,"icon_color":"#000000","heading":"Visit our support center","text":"<p>Expert help & advice<\/p>","link":""}},"icons-with-text-2":{"type":"item","settings":{"icon":"box","use_custom_icon_color":false,"icon_color":"#000000","heading":"Check your order status","text":"<p>Updates & tracking<\/p>","link":""}},"icons-with-text-3":{"type":"item","settings":{"icon":"return","use_custom_icon_color":false,"icon_color":"#000000","heading":"Returns & exchanges","text":"<p>All you need to know<\/p>","link":""}},"icons-with-text-4":{"type":"item","settings":{"icon":"dollar_sign","use_custom_icon_color":false,"icon_color":"#000000","heading":"Price-match guarantee","text":"<p>Our promise to you<\/p>","link":""}}},"block_order":["icons-with-text-1","icons-with-text-2","icons-with-text-3","icons-with-text-4"],"settings":{"heading":"","heading_align":"text-start","icon_size":44,"title_type_scale":"medium","text_type_scale":"medium","icon_position":"beside","mobile_stack":false,"section_height":"medium","color_scheme":"none","full_width":true,"dividers":"border-top","prevent_animation":false}},"footer":{"type":"footer","settings":{}}},"order":["icons-with-text","footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "icons-with-text": {
+      "type": "icons-with-text",
+      "blocks": {
+        "icons-with-text-1": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Visit our support center",
+            "text": "<p>Expert help & advice</p>",
+            "link": ""
+          }
+        },
+        "icons-with-text-2": {
+          "type": "item",
+          "settings": {
+            "icon": "box",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Check your order status",
+            "text": "<p>Updates & tracking</p>",
+            "link": ""
+          }
+        },
+        "icons-with-text-3": {
+          "type": "item",
+          "settings": {
+            "icon": "return",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Returns & exchanges",
+            "text": "<p>All you need to know</p>",
+            "link": ""
+          }
+        },
+        "icons-with-text-4": {
+          "type": "item",
+          "settings": {
+            "icon": "dollar_sign",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Price-match guarantee",
+            "text": "<p>Our promise to you</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icons-with-text-1",
+        "icons-with-text-2",
+        "icons-with-text-3",
+        "icons-with-text-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 44,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "beside",
+        "mobile_stack": false,
+        "section_height": "medium",
+        "color_scheme": "none",
+        "full_width": true,
+        "dividers": "border-top",
+        "prevent_animation": false
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "link_list_6qHjEt": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Flavourtown",
+            "menu": "flavourtown"
+          }
+        },
+        "link_list_J7VJUW": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help",
+            "menu": "help"
+          }
+        },
+        "link_list_MyBqnx": {
+          "type": "link_list",
+          "settings": {
+            "heading": "My Account",
+            "menu": "my-account"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_6qHjEt",
+        "link_list_J7VJUW",
+        "link_list_MyBqnx"
+      ],
+      "settings": {
+        "show_back_to_top": true,
+        "show_payment_icons": true,
+        "show_powered_by": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "secondary_menu": "",
+        "bg_color": "{{ shop.brand.colors.primary[0].background }}",
+        "text_color": "{{ shop.brand.colors.primary[0].foreground }}"
+      }
+    }
+  },
+  "order": [
+    "icons-with-text",
+    "footer"
+  ]
+}
