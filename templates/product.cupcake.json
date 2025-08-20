@@ -1,1 +1,284 @@
-{"sections":{"main":{"type":"main-product","blocks":{"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{"show_tax_and_shipping":false}},"judge_me_reviews_preview_badge_Lzxgcc":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{}},"divider":{"type":"divider","settings":{"show_line":true}},"b4ca5010-6dbc-4f45-8ff7-a43194b792a0":{"type":"shopify:\/\/apps\/infinite-options\/blocks\/app-block\/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b","settings":{}},"e2983944-f388-4d1c-8417-ab0657ed070a":{"type":"divider","settings":{"show_line":true}},"description":{"type":"description","settings":{}}},"block_order":["title","price","judge_me_reviews_preview_badge_Lzxgcc","divider","b4ca5010-6dbc-4f45-8ff7-a43194b792a0","e2983944-f388-4d1c-8417-ab0657ed070a","description"],"settings":{"enable_video_looping":false}},"1744034510d0d7119e":{"type":"apps","blocks":{"judge_me_reviews_review_widget_yzXRAJ":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{}}},"block_order":["judge_me_reviews_review_widget_yzXRAJ"],"settings":{}},"b4cea25c-fed6-4d42-8e02-8a41b1d563e8":{"type":"testimonials","blocks":{"template--14974649335850__b4cea25c-fed6-4d42-8e02-8a41b1d563e8-testimonial-1":{"type":"testimonial","settings":{}}},"block_order":["template--14974649335850__b4cea25c-fed6-4d42-8e02-8a41b1d563e8-testimonial-1"],"disabled":true,"settings":{"heading":"Raves from our customers","autoplay":false,"autoplay_speed":7,"full_width":false}},"3806864e-dd2b-4bb6-b0eb-1c49eb9495c0":{"type":"featured-collection","settings":{"title":"Need candles?","show_view_all":true,"collection":"candles","layout":"grid"}},"product-recommendations":{"type":"product-recommendations","settings":{}},"details":{"type":"product-details","blocks":{"71057e1b-320d-4706-a43a-06d66046c5a7":{"type":"tabs","settings":{"style":"collapsible","open_first":false,"show_description":true,"show_reviews":true,"custom_reviews":"","show_specification":false,"spec_metafields":"","spec_right_align":false,"spec_show_empty_metafields":true,"spec_empty_field_text":"-","tab_1_title":"","tab_1_text":"","tab_1_page":"","tab_2_title":"","tab_2_text":"","tab_2_page":"","tab_3_title":"","tab_3_text":"","tab_3_page":""}},"highlight_text_qEpJN4":{"type":"highlight-text","settings":{"text":"<h4>Highlight title<\/h4><p>Text to highlight a key feature of your product<\/p>"}},"highlight_text_r3c7Pb":{"type":"highlight-text","settings":{"text":"<h4>Highlight title<\/h4><p>Text to highlight a key feature of your product<\/p>"}}},"block_order":["71057e1b-320d-4706-a43a-06d66046c5a7","highlight_text_qEpJN4","highlight_text_r3c7Pb"],"settings":{}}},"order":["main","details","1744034510d0d7119e","b4cea25c-fed6-4d42-8e02-8a41b1d563e8","3806864e-dd2b-4bb6-b0eb-1c49eb9495c0","product-recommendations"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_weight": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "judge_me_reviews_preview_badge_Lzxgcc": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_line": true
+          }
+        },
+        "b4ca5010-6dbc-4f45-8ff7-a43194b792a0": {
+          "type": "shopify://apps/infinite-options/blocks/app-block/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
+          "settings": {}
+        },
+        "variant_picker_YtrKVg": {
+          "type": "variant-picker",
+          "settings": {
+            "selector_style": "buttons",
+            "enable_dynamic_availability": true,
+            "dynamic_availability_downwards": true,
+            "show_backorder_text": true,
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons_T3NYPA": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_qty_selector": true,
+            "enable_dynamic_checkout": false,
+            "show_pickup_availability": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "e2983944-f388-4d1c-8417-ab0657ed070a": {
+          "type": "divider",
+          "settings": {
+            "show_line": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_as_collapsible_content": false,
+            "icon": "none",
+            "open": false
+          }
+        },
+        "collapsible_content_kjn8CX": {
+          "type": "collapsible-content",
+          "settings": {
+            "heading": "Allergens",
+            "icon": "none",
+            "text": "<p>Please note: All Flavourtown gourmet treats are made in a bakery that handles nuts, gluten, milk, eggs or other allergens.</p>",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_content_X47h4y": {
+          "type": "collapsible-content",
+          "settings": {
+            "heading": "Disclaimer",
+            "icon": "none",
+            "text": "<p>All Flavourtown products are crafted by hand by our skilled team. This means colours and finish may vary slightly from our website pictures.</p>",
+            "page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "judge_me_reviews_preview_badge_Lzxgcc",
+        "divider",
+        "b4ca5010-6dbc-4f45-8ff7-a43194b792a0",
+        "variant_picker_YtrKVg",
+        "buy_buttons_T3NYPA",
+        "e2983944-f388-4d1c-8417-ab0657ed070a",
+        "description",
+        "collapsible_content_kjn8CX",
+        "collapsible_content_X47h4y"
+      ],
+      "settings": {
+        "stick_on_scroll": true,
+        "sticky_atc_panel": false,
+        "sticky_atc_position": "end-dock",
+        "sticky_atc_mobile": true,
+        "media_layout": "slider",
+        "media_size": "default",
+        "media_ratio": "1",
+        "media_crop": "none",
+        "enable_video_looping": false,
+        "enable_zoom": true,
+        "zoom_mode": "hover",
+        "enable_lightbox_mobile": false,
+        "hover_zoom": "large",
+        "stacked_scroll": "always",
+        "underline_active": true,
+        "media_arrows": "desktop",
+        "show_slide_count": true,
+        "media_thumbs": "desktop",
+        "lightbox_thumbnails": true,
+        "thumb_ratio": "1",
+        "thumb_crop": "none",
+        "border_color": "rgba(0,0,0,0)",
+        "bg_color": "#f4f4f4",
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "details": {
+      "type": "product-details",
+      "blocks": {
+        "71057e1b-320d-4706-a43a-06d66046c5a7": {
+          "type": "tabs",
+          "settings": {
+            "style": "collapsible",
+            "open_first": false,
+            "show_description": true,
+            "show_reviews": true,
+            "show_reviews_count": true,
+            "custom_reviews": "",
+            "show_specification": false,
+            "spec_heading": "Specifications",
+            "spec_metafields": "",
+            "spec_right_align": false,
+            "spec_show_empty_metafields": true,
+            "spec_empty_field_text": "-",
+            "tab_1_title": "",
+            "tab_1_text": "",
+            "tab_1_page": "",
+            "tab_2_title": "",
+            "tab_2_text": "",
+            "tab_2_page": "",
+            "tab_3_title": "",
+            "tab_3_text": "",
+            "tab_3_page": ""
+          }
+        },
+        "highlight_text_qEpJN4": {
+          "type": "highlight-text",
+          "settings": {
+            "text": "<h4>Highlight title</h4><p>Text to highlight a key feature of your product</p>"
+          }
+        },
+        "highlight_text_r3c7Pb": {
+          "type": "highlight-text",
+          "settings": {
+            "text": "<h4>Highlight title</h4><p>Text to highlight a key feature of your product</p>"
+          }
+        }
+      },
+      "block_order": [
+        "71057e1b-320d-4706-a43a-06d66046c5a7",
+        "highlight_text_qEpJN4",
+        "highlight_text_r3c7Pb"
+      ],
+      "disabled": true,
+      "settings": {
+        "content_size": "default",
+        "placement": "left",
+        "text": "",
+        "show_image_first": false,
+        "color_scheme": "default",
+        "full_width": false
+      }
+    },
+    "1744034510d0d7119e": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_yzXRAJ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_yzXRAJ"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "b4cea25c-fed6-4d42-8e02-8a41b1d563e8": {
+      "type": "testimonials",
+      "blocks": {
+        "template--14974649335850__b4cea25c-fed6-4d42-8e02-8a41b1d563e8-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "Author information",
+            "show_star_rating": true,
+            "star_rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--14974649335850__b4cea25c-fed6-4d42-8e02-8a41b1d563e8-testimonial-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Raves from our customers",
+        "show_quotes": false,
+        "testimonial_size": "h3",
+        "testimonial_font": "heading",
+        "text_position": "justify-center",
+        "text_align": "text-center justify-center",
+        "nav_style": "slideshow_nav_dots",
+        "transition": "slide-fade",
+        "autoplay": false,
+        "slider_pause": false,
+        "autoplay_speed": 7,
+        "color_scheme": "1",
+        "star_color": "#f7c346",
+        "full_width": false
+      }
+    },
+    "3806864e-dd2b-4bb6-b0eb-1c49eb9495c0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Need candles?",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "candles",
+        "layout": "grid",
+        "card_size_mobile": "small",
+        "card_size": "large",
+        "products_to_show": 4,
+        "color_scheme": "none",
+        "card_contain": false,
+        "full_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "heading_align": "text-start",
+        "layout": "grid",
+        "card_size_mobile": "small",
+        "card_size": "large",
+        "products_to_show": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "1744034510d0d7119e",
+    "b4cea25c-fed6-4d42-8e02-8a41b1d563e8",
+    "3806864e-dd2b-4bb6-b0eb-1c49eb9495c0",
+    "product-recommendations"
+  ]
+}
