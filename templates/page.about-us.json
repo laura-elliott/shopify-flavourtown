@@ -124,10 +124,22 @@
             "text": "<p>It doesn’t matter what you order from us, we promise to hand bake, hand decorate, and hand deliver the ultimate celebration cake or the most delicious box of cupcakes, cookies or brownies you’ve ever tasted.</p>",
             "enlarge_text": true
           }
+        },
+        "button_dYtjW8": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Shop our favourites",
+            "button_1_link": "shopify://collections/all-favourites",
+            "button_1_style": "btn--secondary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
         }
       },
       "block_order": [
-        "text_6g6qWe"
+        "text_6g6qWe",
+        "button_dYtjW8"
       ],
       "name": "Rich text",
       "settings": {
