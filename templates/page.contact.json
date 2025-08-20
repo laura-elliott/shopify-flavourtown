@@ -1,1 +1,139 @@
-{"sections":{"380e211e-302b-4883-8e87-4eedb3297264":{"type":"rich-text","settings":{"full_width":true}},"main":{"type":"main-contact","settings":{}},"1dada225-8f53-4e0d-b650-f7bb989b476b":{"type":"rich-text","settings":{"full_width":false}}},"order":["380e211e-302b-4883-8e87-4eedb3297264","main","1dada225-8f53-4e0d-b650-f7bb989b476b"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-contact",
+      "settings": {
+        "show_contact_title": true,
+        "heading_size": "h2",
+        "heading_align": "text-center"
+      }
+    },
+    "contact_form_aRydcx": {
+      "type": "contact-form",
+      "blocks": {
+        "name_Px4cUf": {
+          "type": "name",
+          "settings": {
+            "required": true,
+            "half_width": false
+          }
+        },
+        "email_M6GBnA": {
+          "type": "email",
+          "settings": {
+            "required": true,
+            "half_width": true
+          }
+        },
+        "phone_XAnJEd": {
+          "type": "phone",
+          "settings": {
+            "required": false,
+            "half_width": true
+          }
+        },
+        "body_EYhqXA": {
+          "type": "body",
+          "settings": {
+            "required": true,
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "name_Px4cUf",
+        "email_M6GBnA",
+        "phone_XAnJEd",
+        "body_EYhqXA"
+      ],
+      "name": "Contact form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_align": "text-center",
+        "image_position": "top",
+        "color_scheme": "none",
+        "full_width": true,
+        "button_style": "btn btn--primary"
+      }
+    },
+    "1dada225-8f53-4e0d-b650-f7bb989b476b": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BLhNCH": {
+          "type": "heading",
+          "settings": {
+            "heading": "FOR QUESTIONS ABOUT ORDERING, OUR PRODUCT RANGE, AMENDMENTS, DELIVERIES AND TRACKING ORDERS:",
+            "heading_size": "h4",
+            "heading_h1": false
+          }
+        },
+        "text_YYVUpm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please email <a href=\"mailto:info@flavourtownbakery.co.uk\">info@flavourtownbakery.co.uk</a> or call us on <a href=\"tel:+442081085994\" title=\"tel:+442081085994\">020 8108 5994</a>.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BLhNCH",
+        "text_YYVUpm"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": false,
+        "prevent_animation": false
+      }
+    },
+    "rich_text_kn9Njq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RfqYUa": {
+          "type": "heading",
+          "settings": {
+            "heading": "CONTACTING OUR FULHAM STORE",
+            "heading_size": "h4",
+            "heading_h1": false
+          }
+        },
+        "text_8ramiT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our store team will be able to let you know what grab-and-go last-minute cakes we have available today, and we will do our best to answer any store-related questions you might have. Our Fulham store is open 7 days a week, 10am - 6:30pm. To speak to the store, please call  <a href=\"tel:020336092016\" title=\"tel:020336092016\">0203 553 1089</a>.</p><p><em>Please be aware that it may take a while to answer calls as our small teams are serving customers.</em></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RfqYUa",
+        "text_8ramiT"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": false,
+        "prevent_animation": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact_form_aRydcx",
+    "1dada225-8f53-4e0d-b650-f7bb989b476b",
+    "rich_text_kn9Njq"
+  ]
+}
