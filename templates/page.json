@@ -109,6 +109,30 @@
             "text": "<p>All cupcakes have a minimum order of six. Mini cupcakes have a minimum order of twelve.</p>"
           }
         },
+        "question_Yc4ETr": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How big are your cupcakes?",
+            "text": "<p>Our cupcakes are full standard size and are very generous.</p>"
+          }
+        },
+        "question_dzpTLy": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How many portions do your layer cakes serve?",
+            "text": "<p>We recommend giving your guests generous slices (as we do in our stores – American-sized potions if you will), so we approximate that you will get the following portions for our cakes: 6\" = six – ten portions / 8\" = twelve – eighteen portions / 10\" = twenty-eight – thirty-four portions / 12\" = forty - four portions.</p><p>Please refer to the cakes page for our downloadable PDF portion guide.</p>"
+          }
+        },
+        "question_raVJU9": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How much do your cakes weigh?",
+            "text": "<p>Please be aware when collecting large cakes, these can be extremely heavy and the boxes they come in can be very large. We strongly recommend arranging suitable transport to collect large cakes or cupcakes. WE DO NOT PROVIDE BAGS AS OUR CAKES NEED TO BE CARRIED BY HAND</p>"
+          }
+        },
         "category_YdNWGb": {
           "type": "category",
           "settings": {
@@ -242,39 +266,29 @@
           "settings": {
             "icon": "none",
             "heading": "Where do you deliver?",
-            "text": "<p>Our delivery map can be found on the <a href=\"https://www.flavourtownbakery.co.uk/pages/delivery-collection\">delivery page.</a></p><p>We deliver by hand 7 days a week.</p><p>Our ANYTIME delivery will arrive between 8 am and 5 pm - You’ll receive a message on the morning of your chosen delivery date with an approximate two-hour window. (Please note that we can’t accept specific requests for times within this window)</p><p>Our PRE-MIDDAY delivery service will arrive between 8 am and 12 pm - You’ll receive a message on the morning of your chosen delivery date with an approximate two-hour window. (Please note that we can’t accept specific<br/>requests for times within this window)</p><p>Please ensure someone is available at your chosen delivery address on the day you’ve selected. If you’re sending Flavourtown as a gift, it’s best to advise the recipient that something delicious is coming their way that day. </p><p>If there’s nobody around to accept your delivery, we will do our absolute best to contact you, if this isn’t possible, we will attempt to leave your order with a neighbour/receptionist/post room OR in a safe place of your choice.  Unfortunately, we cannot take your order away again for re-delivery, and it will be left at the delivery address. </p><p>We’re always thrilled to deliver to offices and businesses, but kindly note that we can’t accept liability for any issues such as damage after your order is signed for and left with a post room/reception. It’s always best to alert post rooms, etc., that you’re expecting a fragile delivery. </p><p>Unfortunately, we cannot deliver outside of London using our delivery team; however, we are happy for you to arrange your own courier delivery outside of London! Please contact us if you would like assistance with this.</p>"
+            "text": "<p>Our delivery map can be found on the <a href=\"https://www.flavourtownbakery.co.uk/pages/delivery-collection\">delivery page.</a></p><p>We deliver by hand 7 days a week.</p><p>Our ANYTIME delivery will arrive between 8 am and 5 pm - You’ll receive a message on the morning of your chosen delivery date with an approximate two-hour window. (Please note that we can’t accept specific requests for times within this window)</p><p>Our PRE-MIDDAY delivery service will arrive between 8 am and 12 pm - You’ll receive a message on the morning of your chosen delivery date with an approximate two-hour window. (Please note that we can’t accept specific<br/>requests for times within this window)</p><p>Please ensure someone is available at your chosen delivery address on the day you’ve selected. If you’re sending Flavourtown as a gift, it’s best to advise the recipient that something delicious is coming their way that day. </p><p>If there’s nobody around to accept your delivery, we will do our absolute best to contact you, if this isn’t possible, we will attempt to leave your order with a neighbour/receptionist/post room OR in a safe place of your choice.  Unfortunately, we cannot take your order away again for re-delivery, and it will be left at the delivery address. </p><p>We’re always thrilled to deliver to offices and businesses, but kindly note that we can’t accept liability for any issues such as damage after your order is signed for and left with a post room/reception. It’s always best to alert post rooms, etc., that you’re expecting a fragile delivery. </p>"
           }
         },
         "question_aqpq7f": {
           "type": "question",
           "settings": {
             "icon": "none",
-            "heading": "Frequently asked question",
-            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
+            "heading": "Can you deliver outside London?",
+            "text": "<p>Unfortunately, we cannot deliver outside of London using our delivery team; however, we are happy for you to arrange your own courier delivery outside of London! Please contact us if you would like assistance with this.</p>"
+          }
+        },
+        "category_CBjnXd": {
+          "type": "category",
+          "settings": {
+            "text": "Collection"
           }
         },
         "question_frcV7j": {
           "type": "question",
           "settings": {
             "icon": "none",
-            "heading": "Frequently asked question",
-            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
-          }
-        },
-        "question_HTx9aK": {
-          "type": "question",
-          "settings": {
-            "icon": "none",
-            "heading": "Frequently asked question",
-            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
-          }
-        },
-        "question_GAxNwE": {
-          "type": "question",
-          "settings": {
-            "icon": "none",
-            "heading": "Frequently asked question",
-            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
+            "heading": "Where can I collect my order from?",
+            "text": "<p>Orders can be collected from our bakery in Park Royal (Area 200, Dephna House, 1-3 Britannia Way, Park Royal, NW10 7PR) between 9am - 3pm, or from our Fulham store (771 Fulham Road, London, SW6 5HA).</p>"
           }
         }
       },
@@ -287,6 +301,9 @@
         "question_ijw4Ya",
         "question_JiPiCi",
         "question_VgpWT3",
+        "question_Yc4ETr",
+        "question_dzpTLy",
+        "question_raVJU9",
         "category_YdNWGb",
         "question_gAGwL3",
         "question_3qitkx",
@@ -306,9 +323,8 @@
         "category_bQWREi",
         "question_NdNyw3",
         "question_aqpq7f",
-        "question_frcV7j",
-        "question_HTx9aK",
-        "question_GAxNwE"
+        "category_CBjnXd",
+        "question_frcV7j"
       ],
       "name": "Collapsible content",
       "settings": {
