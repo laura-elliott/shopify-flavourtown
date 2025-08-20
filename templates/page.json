@@ -101,6 +101,14 @@
             "text": "<p>Cupcakes are available to order in six or twelve of a single flavour as well as our new mixed boxes! As all products are baked fresh, we cannot create bespoke mixed boxes; however, we do offer lots of selections. Check out our <a href=\"https://www.flavourtownbakery.co.uk/collections/favourite-boxes\" title=\"Cupcake Favourite Selection Boxes | Handcrafted In London By Flavourtown Bakery\">Favourites Boxes</a> here. </p>"
           }
         },
+        "question_VgpWT3": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Is there a minimum order?",
+            "text": "<p>All cupcakes have a minimum order of six. Mini cupcakes have a minimum order of twelve.</p>"
+          }
+        },
         "category_YdNWGb": {
           "type": "category",
           "settings": {
@@ -177,7 +185,91 @@
             "text": "<p>Our brownies are best stored in the fridge and will keep for a week. At room temperature, they will be good for four days.</p>"
           }
         },
+        "category_cKeUwR": {
+          "type": "category",
+          "settings": {
+            "text": "Ordering"
+          }
+        },
         "question_M8gB7M": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How long do I need to order in advance?",
+            "text": "<p>For online orders, we require a minimum of 48 hours’ notice. We may be able to help at shorter notice so please call or email our customer service team.</p>"
+          }
+        },
+        "question_nHyinm": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "I haven't received my confirmation email. What can I do?",
+            "text": "<p>Your confirmation email will be sent once payment has been received - please contact us if you haven't received a confirmation after payment has been made.</p><p>Occasionally our confirmation email may find its way into your spam or trash folder. Please check these folders and allow plenty of time for the confirmation email to be sent through - it may not be received immediately. If you still have not received a confirmation email on the day the order is placed, please contact us at  info@flavourtownbakery.co.uk.</p>"
+          }
+        },
+        "question_EgUxRh": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How do I amend an order?",
+            "text": "<p>If you wish to amend an order, you must contact us with a minimum of four days' notice for cupcakes and four days' notice for layer cakes, where our customer service team will do their best to accommodate you as much as possible. Orders placed with customised decorations or flavours cannot be amended after the order has been placed.</p>"
+          }
+        },
+        "question_wFgBV4": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How do I cancel an order?",
+            "text": "<p>Here's our full <a href=\"https://www.flavourtownbakery.co.uk/pages/terms-and-conditions\" title=\"Terms & Conditions | Flavourtown Cancelation Policy\">cancellation<br/>policy</a>. </p>"
+          }
+        },
+        "question_JPUFnK": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Edible Imagery",
+            "text": "<p>We reserve the right to request alternative images in cases where we deem the supplied imagery to be unsuitable.</p><p>Please note - Edible inks won't ever create the same effect as this used in normal printers. Whilst our edible printing system is top-of-the-range, we can't be responsible for colour discrepancies. </p>"
+          }
+        },
+        "category_bQWREi": {
+          "type": "category",
+          "settings": {
+            "text": "Delivery"
+          }
+        },
+        "question_NdNyw3": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Frequently asked question",
+            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
+          }
+        },
+        "question_aqpq7f": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Frequently asked question",
+            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
+          }
+        },
+        "question_frcV7j": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Frequently asked question",
+            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
+          }
+        },
+        "question_HTx9aK": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Frequently asked question",
+            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
+          }
+        },
+        "question_GAxNwE": {
           "type": "question",
           "settings": {
             "icon": "none",
@@ -194,6 +286,7 @@
         "question_UkkXCm",
         "question_ijw4Ya",
         "question_JiPiCi",
+        "question_VgpWT3",
         "category_YdNWGb",
         "question_gAGwL3",
         "question_3qitkx",
@@ -204,7 +297,18 @@
         "question_DBnf9Y",
         "question_X7t7Fp",
         "question_aN6AdF",
-        "question_M8gB7M"
+        "category_cKeUwR",
+        "question_M8gB7M",
+        "question_nHyinm",
+        "question_EgUxRh",
+        "question_wFgBV4",
+        "question_JPUFnK",
+        "category_bQWREi",
+        "question_NdNyw3",
+        "question_aqpq7f",
+        "question_frcV7j",
+        "question_HTx9aK",
+        "question_GAxNwE"
       ],
       "name": "Collapsible content",
       "settings": {
