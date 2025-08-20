@@ -403,6 +403,60 @@
         "color_scheme": "none",
         "full_width": true
       }
+    },
+    "image_banner_UzQeDx": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_akcFHq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need cakes and cupcakes now?",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_QD6bht": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Fulham store is now on Deliveroo and Uber Eats!</p><p>If you're in our catchment area there's an epic selection of cupcakes, whole cakes, brownies and our amazing NYC style cookies to get your hands on</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_LYfzxq": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Order on Deliveroo",
+            "button_1_link": "https://deliveroo.co.uk/",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Order on Uber Eats",
+            "button_2_link": "https://www.ubereats.com/",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_akcFHq",
+        "text_QD6bht",
+        "button_LYfzxq"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_desktop": "shopify://shop_images/flavourtown-bakery-london-cupcakes_fulham-cake-shop-cupcakes_1400x_758b7f26-e1d1-4132-abbe-4f9664fde200.jpg",
+        "url": "https://deliveroo.co.uk/",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 480,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 25,
+        "prevent_animation": false
+      }
     }
   },
   "order": [
@@ -414,6 +468,7 @@
     "icons_with_text_QEWHX4",
     "icons_with_text_Y67iTn",
     "rich_text_4PiUHi",
-    "dd818315-8c53-4c41-9c8d-7715fc404c5e"
+    "dd818315-8c53-4c41-9c8d-7715fc404c5e",
+    "image_banner_UzQeDx"
   ]
 }
