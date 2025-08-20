@@ -66,7 +66,7 @@
         "category_xPEzhB": {
           "type": "category",
           "settings": {
-            "text": "Cakes"
+            "text": "Cakes & Cupcakes"
           }
         },
         "question_ynBP9b": {
@@ -92,6 +92,92 @@
             "heading": "Can I have bespoke cakes and cupcakes?",
             "text": "<p>Our bespoke service is priced on an order-by-order basis and is subject to availability; please email info@flavourtownbakery.co.uk for help<br/>with your order.</p>"
           }
+        },
+        "question_JiPiCi": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Can I mix flavours?",
+            "text": "<p>Cupcakes are available to order in six or twelve of a single flavour as well as our new mixed boxes! As all products are baked fresh, we cannot create bespoke mixed boxes; however, we do offer lots of selections. Check out our <a href=\"https://www.flavourtownbakery.co.uk/collections/favourite-boxes\" title=\"Cupcake Favourite Selection Boxes | Handcrafted In London By Flavourtown Bakery\">Favourites Boxes</a> here. </p>"
+          }
+        },
+        "category_YdNWGb": {
+          "type": "category",
+          "settings": {
+            "text": "Dietary Information"
+          }
+        },
+        "question_gAGwL3": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Are your products suitable for vegetarians?",
+            "text": "<p>Almost all our products are suitable for vegetarians, apart from any that contain marshmallows.</p>"
+          }
+        },
+        "question_3qitkx": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Do you sell any vegan products?",
+            "text": "<p>We absolutely do! Check out our <a href=\"https://www.flavourtownbakery.co.uk/collections/vegan-cakes-cupcakes\" title=\"https://www.flavourtownbakery.co.uk/collections/vegan-cakes-cupcakes\">vegan products here</a> for flavours are currently available.</p>"
+          }
+        },
+        "question_Bpmmdg": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Do you sell any gluten-free products?",
+            "text": "<p>Our Free From Gluten products are baked without gluten however, they are made in an environment that uses gluten-based products on a daily basis. We have robust cross-contamination prevention procedures in place, but all Flavourtown products may contain traces of gluten.</p>"
+          }
+        },
+        "question_c8ga3D": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Are your products nut-safe?",
+            "text": "<p>We bake with all kinds of nuts, including peanuts and tree nuts, in our bakery and whilst we have robust cross-contamination prevention procedures in place, we cannot guarantee that our products don't contain traces of nuts. Although a product may not contain nuts, all products are made in a<br/>kitchen that handles nuts.</p>"
+          }
+        },
+        "question_iBKeyw": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Are your products Halal?",
+            "text": "<p>While we are not a Halal Monitoring Committee-approved supplier we do adhere to their guidelines, and as such, all of the sweets we use are vegetarian. Some of the marshmallows we use are vegan, but some aren’t so please do check with us if you are not sure. We also use gold spray as part of the decorations on some of our products. This uses ethanol as a carrier for the gold lustre dust however it evaporates, and the HMC have advised that it is safe for those who follow a Halal diet.</p><p>We bake with care and attention to detail but sometimes a piece of eggshell, fruit seeds or stones can make its way into our cakes.</p>"
+          }
+        },
+        "question_DBnf9Y": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Frequently asked question",
+            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
+          }
+        },
+        "question_X7t7Fp": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Frequently asked question",
+            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
+          }
+        },
+        "question_aN6AdF": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Frequently asked question",
+            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
+          }
+        },
+        "question_M8gB7M": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Frequently asked question",
+            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.</p>"
+          }
         }
       },
       "block_order": [
@@ -100,7 +186,18 @@
         "category_xPEzhB",
         "question_ynBP9b",
         "question_UkkXCm",
-        "question_ijw4Ya"
+        "question_ijw4Ya",
+        "question_JiPiCi",
+        "category_YdNWGb",
+        "question_gAGwL3",
+        "question_3qitkx",
+        "question_Bpmmdg",
+        "question_c8ga3D",
+        "question_iBKeyw",
+        "question_DBnf9Y",
+        "question_X7t7Fp",
+        "question_aN6AdF",
+        "question_M8gB7M"
       ],
       "name": "Collapsible content",
       "settings": {
