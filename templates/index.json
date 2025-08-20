@@ -293,24 +293,6 @@
         "prevent_animation": false
       }
     },
-    "de045bda-e660-46c2-9ff5-b754b461544b": {
-      "type": "background-video",
-      "settings": {
-        "video_external": "https://youtu.be/VEtCRHFRM40",
-        "video_description": "",
-        "video_height": "md",
-        "overlay_text_align": "text-center",
-        "overlay_position": "justify-center items-center",
-        "mob_center_text": true,
-        "color_scheme": "white",
-        "transparent_content_color": "#ffffff",
-        "tint_color": "#000000",
-        "tint_opacity": 40,
-        "tint_gradient": "",
-        "lazyload": true,
-        "prevent_animation": false
-      }
-    },
     "media_grid_4JL7MY": {
       "type": "media-grid",
       "blocks": {
@@ -420,6 +402,93 @@
         "overlay_border_radius": 0
       }
     },
+    "icons_with_text_kghDrX": {
+      "type": "icons-with-text",
+      "blocks": {
+        "item_Ne6Yw7": {
+          "type": "item",
+          "settings": {
+            "icon": "heart",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Freshly Baked Happiness",
+            "text": "<p>We're here to celebrate all of life's big moments and small wins with you. </p>",
+            "link": ""
+          }
+        },
+        "item_P47QNj": {
+          "type": "item",
+          "settings": {
+            "icon": "award",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "The best ingredients",
+            "text": "<p>We use the best ingredients money can buy - no compromises!</p>",
+            "link": ""
+          }
+        },
+        "item_d7nE6w": {
+          "type": "item",
+          "settings": {
+            "icon": "box",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "London Delivery",
+            "text": "<p>Our drivers and vans deliver across London seven days a week.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_Ne6Yw7",
+        "item_P47QNj",
+        "item_d7nE6w"
+      ],
+      "name": "Icons with text",
+      "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 40,
+        "title_type_scale": "large",
+        "text_type_scale": "small",
+        "icon_position": "above",
+        "mobile_stack": false,
+        "section_height": "small",
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "custom_liquid_BiJE7d": {
+      "type": "custom-liquid",
+      "name": "Custom HTML/Liquid",
+      "settings": {
+        "custom_liquid": "<br />",
+        "section_height": "small",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "de045bda-e660-46c2-9ff5-b754b461544b": {
+      "type": "background-video",
+      "settings": {
+        "video_external": "https://youtu.be/VEtCRHFRM40",
+        "video_description": "",
+        "video_height": "md",
+        "overlay_text_align": "text-center",
+        "overlay_position": "justify-center items-center",
+        "mob_center_text": true,
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 0,
+        "tint_gradient": "",
+        "lazyload": true,
+        "prevent_animation": false
+      }
+    },
     "fb9efcc5-b281-4f36-adde-06254a9fb21d": {
       "type": "custom-liquid",
       "settings": {
@@ -515,8 +584,10 @@
     "9db06b71-36fa-415c-a453-2ac9e6bc4dca",
     "scrolling_banner_9LbHML",
     "35b86613-768b-4221-ad11-cf0564bcbc5e",
-    "de045bda-e660-46c2-9ff5-b754b461544b",
     "media_grid_4JL7MY",
+    "icons_with_text_kghDrX",
+    "custom_liquid_BiJE7d",
+    "de045bda-e660-46c2-9ff5-b754b461544b",
     "fb9efcc5-b281-4f36-adde-06254a9fb21d",
     "1693385323510e60b9",
     "logo_list_98xUV9",
