@@ -67,8 +67,8 @@
         "autoplay_speed": 6,
         "color_scheme": "white",
         "full_width": true,
-        "tint_color": "#000000",
-        "tint_opacity": 40,
+        "tint_color": "{{ shop.brand.colors.primary[0].background }}",
+        "tint_opacity": 10,
         "accessibility_info": "",
         "prevent_animation": true
       }
@@ -145,9 +145,9 @@
         "layout": "grid",
         "card_size_mobile": "small",
         "card_size": "small",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "color_scheme": "none",
-        "card_contain": true,
+        "card_contain": false,
         "full_width": true
       }
     },
