@@ -27,6 +27,31 @@
     },
     "collection-products": {
       "type": "main-collection-products",
+      "blocks": {
+        "image_promotion_UmHxd4": {
+          "type": "image-promotion",
+          "settings": {
+            "position": 1,
+            "view": "grid_list",
+            "hide_on_filter": true,
+            "min_height": 150,
+            "image": "shopify://shop_images/flavourtown_bakery_wedding_-_blog_header_copy3.jpg",
+            "link_url": "shopify://blogs/blog/how-to-choose-the-perfect-wedding-cake-in-london-without-the-stress-1",
+            "content": "<h5>FROM THE BLOG</h5><p>How to Choose the Perfect Wedding Cake in London (Without the Stress)</p>",
+            "text_type_scale": "1em",
+            "text_width": 400,
+            "text_alignment": "justify-center items-center text-center",
+            "button_label": "Read the post",
+            "button_style": "link",
+            "text_color": "{{ shop.brand.colors.primary[0].background }}",
+            "tint_color": "{{ shop.brand.colors.primary[0].foreground }}",
+            "tint_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "image_promotion_UmHxd4"
+      ],
       "settings": {
         "products_per_page": 24,
         "card_size_mobile": "small",
