@@ -186,6 +186,122 @@
         "button_style": "btn btn--secondary"
       }
     },
+    "icons_with_text_QEWHX4": {
+      "type": "icons-with-text",
+      "blocks": {
+        "item_JMmLKj": {
+          "type": "item",
+          "settings": {
+            "icon": "box",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Takeaway Available",
+            "text": "<p>Our epic range of cupcakes, brownies & cookies are available to takeaway. We also have amazing coffee using Square Mile Coffee beans and The Estate Dairy milk.</p>",
+            "link": ""
+          }
+        },
+        "item_4mG6AL": {
+          "type": "item",
+          "settings": {
+            "icon": "check_mark_in_circle",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Dogs welcome",
+            "text": "<p>We welcome dogs of all shapes and sizes! We have fresh water inside and always love seeing our four legged friends!</p>",
+            "link": ""
+          }
+        },
+        "item_Q8MPtJ": {
+          "type": "item",
+          "settings": {
+            "icon": "star",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Baby-changing facilities",
+            "text": "<p>We have a unisex toilet available with baby changing facilities in our stores.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_JMmLKj",
+        "item_4mG6AL",
+        "item_Q8MPtJ"
+      ],
+      "name": "Icons with text",
+      "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 48,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "above",
+        "mobile_stack": true,
+        "section_height": "medium",
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "icons_with_text_Y67iTn": {
+      "type": "icons-with-text",
+      "blocks": {
+        "item_RknNFb": {
+          "type": "item",
+          "settings": {
+            "icon": "heart",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Family-friendly",
+            "text": "<p>Our stores are family friendly and we have high chairs and lots of napkins for messy eaters!</p>",
+            "link": ""
+          }
+        },
+        "item_7q4nRQ": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Collect online orders",
+            "text": "<p>All orders placed online can be collected from our stores free of charge. Please bring your order confirmation with you when collecting.</p>",
+            "link": ""
+          }
+        },
+        "item_pfzAPj": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "use_custom_icon_color": false,
+            "icon_color": "#000000",
+            "heading": "Order in-store",
+            "text": "<p>Simple orders can be placed instore, and our staff are always happy to help. *Please note bespoke orders must be <a href=\"https://www.flavourtownbakery.co.uk/pages/contact\" title=\"Contact\">placed through our office here</a></p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_RknNFb",
+        "item_7q4nRQ",
+        "item_pfzAPj"
+      ],
+      "name": "Icons with text",
+      "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 48,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "above",
+        "mobile_stack": true,
+        "section_height": "medium",
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
     "rich_text_4PiUHi": {
       "type": "rich-text",
       "blocks": {
@@ -295,6 +411,8 @@
     "media_with_text_7fjfJ8",
     "9e87b135-87a5-45b3-b355-16aefd1eb2d1",
     "multi_column_bnReV6",
+    "icons_with_text_QEWHX4",
+    "icons_with_text_Y67iTn",
     "rich_text_4PiUHi",
     "dd818315-8c53-4c41-9c8d-7715fc404c5e"
   ]
