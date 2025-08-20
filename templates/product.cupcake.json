@@ -137,59 +137,61 @@
     },
     "details": {
       "type": "product-details",
-      "blocks": {
-        "71057e1b-320d-4706-a43a-06d66046c5a7": {
-          "type": "tabs",
-          "settings": {
-            "style": "collapsible",
-            "open_first": false,
-            "show_description": true,
-            "show_reviews": true,
-            "show_reviews_count": true,
-            "custom_reviews": "",
-            "show_specification": false,
-            "spec_heading": "Specifications",
-            "spec_metafields": "",
-            "spec_right_align": false,
-            "spec_show_empty_metafields": true,
-            "spec_empty_field_text": "-",
-            "tab_1_title": "",
-            "tab_1_text": "",
-            "tab_1_page": "",
-            "tab_2_title": "",
-            "tab_2_text": "",
-            "tab_2_page": "",
-            "tab_3_title": "",
-            "tab_3_text": "",
-            "tab_3_page": ""
-          }
-        },
-        "highlight_text_qEpJN4": {
-          "type": "highlight-text",
-          "settings": {
-            "text": "<h4>Highlight title</h4><p>Text to highlight a key feature of your product</p>"
-          }
-        },
-        "highlight_text_r3c7Pb": {
-          "type": "highlight-text",
-          "settings": {
-            "text": "<h4>Highlight title</h4><p>Text to highlight a key feature of your product</p>"
-          }
-        }
-      },
-      "block_order": [
-        "71057e1b-320d-4706-a43a-06d66046c5a7",
-        "highlight_text_qEpJN4",
-        "highlight_text_r3c7Pb"
-      ],
       "disabled": true,
       "settings": {
-        "content_size": "default",
+        "content_size": "large",
         "placement": "left",
         "text": "",
         "show_image_first": false,
         "color_scheme": "default",
         "full_width": false
+      }
+    },
+    "multi_column_jjAzfq": {
+      "type": "multi-column",
+      "blocks": {
+        "column_K6rAHK": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/Red-Velvet-Oreo-Cupcake-Flavourtown-Bakery.jpg",
+            "media_scale": 100,
+            "heading": "Cupcake care",
+            "text": "<p>Flavourtown Cupcakes and Mini Cupcakes are a perfect one-person portion, so we’d always recommend eating them on the day to get them at their squishy best! If you have ordered for the day before your event, don’t worry; keep them covered in their box, if it’s warm, you can put the box into the fridge, but just make sure you allow a few hours for them to come back to room temperature if you do.<br/><br/></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_3EMtaC": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/flavourtown-bakery-delivers-in-london.jpg",
+            "media_scale": 100,
+            "heading": "Hand Delivery & Collection",
+            "text": "<p>London delivery is available for all our products. We deliver every day between 8am - 5pm, and you can choose your delivery date in checkout.</p><p>If you'd prefer to collect your order, you can collect from our Fulham store or our Park Royal bakery any day of the week.</p>",
+            "button_label": "Find out more",
+            "button_link": "shopify://pages/delivery-collection"
+          }
+        }
+      },
+      "block_order": [
+        "column_K6rAHK",
+        "column_3EMtaC"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "title": "",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "layout": "grid",
+        "column_size": "small",
+        "column_align": "center",
+        "media_align": "text-center",
+        "image_ratio": "shortest",
+        "color_scheme": "none",
+        "button_style": "btn btn--secondary"
       }
     },
     "1744034510d0d7119e": {
@@ -276,6 +278,7 @@
   "order": [
     "main",
     "details",
+    "multi_column_jjAzfq",
     "1744034510d0d7119e",
     "b4cea25c-fed6-4d42-8e02-8a41b1d563e8",
     "3806864e-dd2b-4bb6-b0eb-1c49eb9495c0",
