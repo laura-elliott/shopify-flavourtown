@@ -44,7 +44,7 @@
             "selector_style": "buttons",
             "enable_dynamic_availability": true,
             "dynamic_availability_downwards": true,
-            "show_backorder_text": true,
+            "show_backorder_text": false,
             "enable_size_chart": false,
             "size_chart_variant": "Size",
             "size_chart_page": ""
