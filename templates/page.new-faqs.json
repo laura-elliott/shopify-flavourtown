@@ -1,0 +1,343 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1 {text-align: center; font-size: 40px;}"
+      ],
+      "settings": {
+        "show_page_title": true,
+        "heading_size": "h1",
+        "heading_align": "text-center"
+      }
+    },
+    "rich_text_TTnHLR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bQjyQb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Flavourtown FAQs",
+            "heading_size": "h2",
+            "heading_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_bQjyQb"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "faq_zzdEit": {
+      "type": "faq",
+      "blocks": {
+        "category_BBAbR6": {
+          "type": "category",
+          "settings": {
+            "text": "All about Flavourtown"
+          }
+        },
+        "question_irRWqa": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Tell me about the ingredients Flavourtown uses",
+            "text": "<p>When we use words like 'worlds best ingredients' and 'the best ingredients money can buy', you probably yawn because you've seen it on a million other bakery websites. What some bakeries mean by this and what WE mean by this is wildly different. </p><ul><li>Lescure AOP butter imported from France </li><li>Free Range Eggs</li><li>Organic flour from Shipton Mill and Doves Farm.</li><li>Organic caster, brown and icing sugar from Tate & Lyle.</li><li>Reno X chocolate from Italy. Callebaut chocolate and Belgian<br/>cocoa.</li><li>Madagascan vanilla extract - NEVER essence. </li></ul><p><strong>Provenance is important to Flavourtown; we're passionate about what goes into our food! The quality of what you put in TOTALLY dictates the finished product's taste. Where our competitors use cheaper, inferior<br/>ingredients, we prefer to go high and charge a fair price that reflects the artistry, small-batch baking and extremely high quality that goes into our products. </strong></p>"
+          }
+        },
+        "category_xPEzhB": {
+          "type": "category",
+          "settings": {
+            "text": "Cakes & Cupcakes"
+          }
+        },
+        "question_ynBP9b": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How high / tall are your cakes?",
+            "text": "<p>Our main range of<a href=\"https://www.flavourtownbakery.co.uk/collections/cakes\" title=\"Flavourtown Bakery Cake Collection | Handcrafted Cakes Freshly Baked in London\"> layer cakes</a> are four layers high unless otherwise stated. Rainbow cakes are 6 layers high, and our Simply Amazing - Amazingly Simple cakes are three layers.</p><p>Products on our site are handmade and hand-finished, and as such, these may vary from the images shown on our site; images of the products on our site are for illustrative purposes only.</p>"
+          }
+        },
+        "question_UkkXCm": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Can I customise my cake?",
+            "text": "<p>We offer personalisation options to add your own message to our range of cakes or cupcakes as well as our edible image options. However, if you require anything more than this, your order will fall under our bespoke orders section.</p>"
+          }
+        },
+        "question_ijw4Ya": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Can I have bespoke cakes and cupcakes?",
+            "text": "<p>Our bespoke service is priced on an order-by-order basis and is subject to availability; please email info@flavourtownbakery.co.uk for help with your order.</p>"
+          }
+        },
+        "question_JiPiCi": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Can I mix flavours?",
+            "text": "<p>Cupcakes are available to order in six or twelve of a single flavour as well as our new mixed boxes! As all products are baked fresh, we cannot create bespoke mixed boxes; however, we do offer lots of selections. Check out our <a href=\"https://www.flavourtownbakery.co.uk/collections/favourite-boxes\" title=\"Cupcake Favourite Selection Boxes | Handcrafted In London By Flavourtown Bakery\">Favourites Boxes</a> here. </p>"
+          }
+        },
+        "question_VgpWT3": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Is there a minimum order?",
+            "text": "<p>All cupcakes have a minimum order of six. Mini cupcakes have a minimum order of twelve.</p>"
+          }
+        },
+        "question_Yc4ETr": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How big are your cupcakes?",
+            "text": "<p>Our cupcakes are full standard size and are very generous.</p>"
+          }
+        },
+        "question_dzpTLy": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How many portions do your layer cakes serve?",
+            "text": "<p>We recommend giving your guests generous slices (as we do in our stores – American-sized potions if you will), so we approximate that you will get the following portions for our cakes: 6\" = six – ten portions / 8\" = twelve – eighteen portions / 10\" = twenty-eight – thirty-four portions / 12\" = forty - four portions.</p><p>Please refer to the cakes page for our downloadable PDF portion guide.</p>"
+          }
+        },
+        "question_raVJU9": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How much do your cakes weigh?",
+            "text": "<p>Please be aware when collecting large cakes, these can be extremely heavy and the boxes they come in can be very large. We strongly recommend arranging suitable transport to collect large cakes or cupcakes. WE DO NOT PROVIDE BAGS AS OUR CAKES NEED TO BE CARRIED BY HAND</p>"
+          }
+        },
+        "category_YdNWGb": {
+          "type": "category",
+          "settings": {
+            "text": "Dietary Information"
+          }
+        },
+        "question_gAGwL3": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Are your products suitable for vegetarians?",
+            "text": "<p>Almost all our products are suitable for vegetarians, apart from any that contain marshmallows.</p>"
+          }
+        },
+        "question_3qitkx": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Do you sell any vegan products?",
+            "text": "<p>We absolutely do! Check out our <a href=\"https://www.flavourtownbakery.co.uk/collections/vegan-cakes-cupcakes\" title=\"https://www.flavourtownbakery.co.uk/collections/vegan-cakes-cupcakes\">vegan products here</a> for flavours are currently available.</p>"
+          }
+        },
+        "question_Bpmmdg": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Do you sell any gluten-free products?",
+            "text": "<p>Our Free From Gluten products are baked without gluten however, they are made in an environment that uses gluten-based products on a daily basis. We have robust cross-contamination prevention procedures in place, but all Flavourtown products may contain traces of gluten.</p>"
+          }
+        },
+        "question_c8ga3D": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Are your products nut-safe?",
+            "text": "<p>We bake with all kinds of nuts, including peanuts and tree nuts, in our bakery and whilst we have robust cross-contamination prevention procedures in place, we cannot guarantee that our products don't contain traces of nuts. Although a product may not contain nuts, all products are made in a kitchen that handles nuts.</p>"
+          }
+        },
+        "question_iBKeyw": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Are your products Halal?",
+            "text": "<p>While we are not a Halal Monitoring Committee-approved supplier we do adhere to their guidelines, and as such, all of the sweets we use are vegetarian. Some of the marshmallows we use are vegan, but some aren’t so please do check with us if you are not sure. We also use gold spray as part of the decorations on some of our products. This uses ethanol as a carrier for the gold lustre dust however it evaporates, and the HMC have advised that it is safe for those who follow a Halal diet.</p><p>We bake with care and attention to detail but sometimes a piece of eggshell, fruit seeds or stones can make its way into our cakes.</p>"
+          }
+        },
+        "category_KBBqBm": {
+          "type": "category",
+          "settings": {
+            "text": "Storage"
+          }
+        },
+        "question_DBnf9Y": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How should I store my cupcakes, and how long do they keep for?",
+            "text": "<p>In the unlikely event that your cupcakes don't vanish instantly, they will keep for up to two days. Flavourtown cupcakes also freeze very well.</p>"
+          }
+        },
+        "question_X7t7Fp": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How should I store my cake, and how long will it keep for?",
+            "text": "<p>Our delectable cakes are best eaten on the day you receive them or the next day however, for online orders, they can be eaten up to 4 days after the receiving date. You can also freeze any leftover slices for up to 3 months though the decorations might not be quite the same after defrosting.</p><p>When you receive your cake, please store it in a cool, dark place; on very hot days, you can keep it in the fridge, but please make sure to take it out at least 2 hours before to bring it to room temperature.</p>"
+          }
+        },
+        "question_aN6AdF": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How should I store brownies, and how long do they keep for?",
+            "text": "<p>Our brownies are best stored in the fridge and will keep for a week. At room temperature, they will be good for four days.</p>"
+          }
+        },
+        "category_cKeUwR": {
+          "type": "category",
+          "settings": {
+            "text": "Ordering"
+          }
+        },
+        "question_M8gB7M": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How long do I need to order in advance?",
+            "text": "<p>For online orders, we require a minimum of 48 hours’ notice. We may be able to help at shorter notice so please call or email our customer service team.</p>"
+          }
+        },
+        "question_nHyinm": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "I haven't received my confirmation email. What can I do?",
+            "text": "<p>Your confirmation email will be sent once payment has been received - please contact us if you haven't received a confirmation after payment has been made.</p><p>Occasionally our confirmation email may find its way into your spam or trash folder. Please check these folders and allow plenty of time for the confirmation email to be sent through - it may not be received immediately. If you still have not received a confirmation email on the day the order is placed, please contact us at  info@flavourtownbakery.co.uk.</p>"
+          }
+        },
+        "question_EgUxRh": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How do I amend an order?",
+            "text": "<p>If you wish to amend an order, you must contact us with a minimum of four days' notice for cupcakes and four days' notice for layer cakes, where our customer service team will do their best to accommodate you as much as possible. Orders placed with customised decorations or flavours cannot be amended after the order has been placed.</p>"
+          }
+        },
+        "question_wFgBV4": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How do I cancel an order?",
+            "text": "<p>Here's our full <a href=\"https://www.flavourtownbakery.co.uk/pages/terms-and-conditions\" title=\"Terms & Conditions | Flavourtown Cancelation Policy\">cancellation policy</a>. </p>"
+          }
+        },
+        "question_JPUFnK": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Edible Imagery",
+            "text": "<p>We reserve the right to request alternative images in cases where we deem the supplied imagery to be unsuitable.</p><p>Please note - Edible inks won't ever create the same effect as this used in normal printers. Whilst our edible printing system is top-of-the-range, we can't be responsible for colour discrepancies. </p>"
+          }
+        },
+        "category_bQWREi": {
+          "type": "category",
+          "settings": {
+            "text": "Delivery"
+          }
+        },
+        "question_NdNyw3": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Where do you deliver?",
+            "text": "<p>Our delivery map can be found on the <a href=\"https://www.flavourtownbakery.co.uk/pages/delivery-collection\">delivery page.</a></p><p>We deliver by hand 7 days a week.</p><p>Our ANYTIME delivery will arrive between 8 am and 5 pm - You’ll receive a message on the morning of your chosen delivery date with an approximate two-hour window. (Please note that we can’t accept specific requests for times within this window)</p><p>Our PRE-MIDDAY delivery service will arrive between 8 am and 12 pm - You’ll receive a message on the morning of your chosen delivery date with an approximate two-hour window. (Please note that we can’t accept specific requests for times within this window)</p><p>Please ensure someone is available at your chosen delivery address on the day you’ve selected. If you’re sending Flavourtown as a gift, it’s best to advise the recipient that something delicious is coming their way that day. </p><p>If there’s nobody around to accept your delivery, we will do our absolute best to contact you, if this isn’t possible, we will attempt to leave your order with a neighbour/receptionist/post room OR in a safe place of your choice.  Unfortunately, we cannot take your order away again for re-delivery, and it will be left at the delivery address. </p><p>We’re always thrilled to deliver to offices and businesses, but kindly note that we can’t accept liability for any issues such as damage after your order is signed for and left with a post room/reception. It’s always best to alert post rooms, etc., that you’re expecting a fragile delivery. </p>"
+          }
+        },
+        "question_aqpq7f": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Can you deliver outside London?",
+            "text": "<p>Unfortunately, we cannot deliver outside of London using our delivery team; however, we are happy for you to arrange your own courier delivery outside of London! Please contact us if you would like assistance with this.</p>"
+          }
+        },
+        "category_CBjnXd": {
+          "type": "category",
+          "settings": {
+            "text": "Collection"
+          }
+        },
+        "question_frcV7j": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Where can I collect my order from?",
+            "text": "<p>Orders can be collected from our bakery in Park Royal (Area 200, Dephna House, 1-3 Britannia Way, Park Royal, NW10 7PR) between 9am - 3pm, or from our Fulham store (771 Fulham Road, London, SW6 5HA).</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_BBAbR6",
+        "question_irRWqa",
+        "category_xPEzhB",
+        "question_ynBP9b",
+        "question_UkkXCm",
+        "question_ijw4Ya",
+        "question_JiPiCi",
+        "question_VgpWT3",
+        "question_Yc4ETr",
+        "question_dzpTLy",
+        "question_raVJU9",
+        "category_YdNWGb",
+        "question_gAGwL3",
+        "question_3qitkx",
+        "question_Bpmmdg",
+        "question_c8ga3D",
+        "question_iBKeyw",
+        "category_KBBqBm",
+        "question_DBnf9Y",
+        "question_X7t7Fp",
+        "question_aN6AdF",
+        "category_cKeUwR",
+        "question_M8gB7M",
+        "question_nHyinm",
+        "question_EgUxRh",
+        "question_wFgBV4",
+        "question_JPUFnK",
+        "category_bQWREi",
+        "question_NdNyw3",
+        "question_aqpq7f",
+        "category_CBjnXd",
+        "question_frcV7j"
+      ],
+      "name": "Collapsible content",
+      "settings": {
+        "heading": "",
+        "heading_align": "text-center",
+        "color_scheme": "none",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_TTnHLR",
+    "faq_zzdEit"
+  ]
+}
