@@ -583,31 +583,21 @@
         "only_content_color_scheme": false
       }
     },
-    "fb9efcc5-b281-4f36-adde-06254a9fb21d": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<h2 style=\"text-align:center;\">@FlavourtownBakery on Instagram</h2>",
-        "section_height": "default",
-        "full_width": false,
-        "dividers": "none",
-        "prevent_animation": false
-      }
-    },
     "1693385323510e60b9": {
       "type": "apps",
       "blocks": {
         "e189ac43-30a3-4be7-a933-e50fa9a91698": {
           "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "title": "",
+            "title": "@FlavourtownBakery on Instagram",
             "title_color": "",
-            "title_size_v2": 0,
+            "title_size_v2": 30,
             "alignment": "center",
             "instafeed_margin_top": 0,
             "instafeed_margin_bottom": 0,
             "instafeed_margin_sides": 0,
-            "show_instagram_link": false,
-            "link_alignment": "left",
+            "show_instagram_link": true,
+            "link_alignment": "center",
             "link_color": "#000000",
             "background_color": "",
             "feed_id": "",
@@ -620,35 +610,6 @@
       ],
       "settings": {
         "full_width": false
-      }
-    },
-    "logo_list_98xUV9": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_VJTfKH": {
-          "type": "logo",
-          "settings": {
-            "url": "",
-            "logo_width": 120,
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_VJTfKH"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Brands we work with",
-        "heading_align": "text-start",
-        "button_label": "View all",
-        "button_link": "",
-        "layout": "carousel",
-        "spacing": 40,
-        "logo_grid_align": "justify-center",
-        "image_opacity": 100,
-        "color_scheme": "none",
-        "full_width": true
       }
     },
     "17485315080595b213": {
@@ -684,9 +645,7 @@
     "de045bda-e660-46c2-9ff5-b754b461544b",
     "media_with_text_GLjYAA",
     "media_with_text_hjCzwd",
-    "fb9efcc5-b281-4f36-adde-06254a9fb21d",
     "1693385323510e60b9",
-    "logo_list_98xUV9",
     "17485315080595b213"
   ]
 }
