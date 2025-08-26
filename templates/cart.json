@@ -16,7 +16,7 @@
         "heading_size": "h2",
         "heading_align": "text-start",
         "show_backorder_text": false,
-        "show_vendor": true,
+        "show_vendor": false,
         "show_order_note": true,
         "show_tax_and_shipping": false,
         "show_additional_checkout_buttons": false,
