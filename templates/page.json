@@ -59,8 +59,8 @@
           "type": "question",
           "settings": {
             "icon": "none",
-            "heading": "Tell me about the ingredients Flavourtown uses",
-            "text": "<p>When we use words like 'worlds best ingredients' and 'the best ingredients money can buy', you probably yawn because you've seen it on a million other bakery websites. What some bakeries mean by this and what WE mean by this is wildly different. </p><ul><li>Lescure AOP butter imported from France </li><li>Free Range Eggs</li><li>Organic flour from Shipton Mill and Doves Farm.</li><li>Organic caster, brown and icing sugar from Tate & Lyle.</li><li>Reno X chocolate from Italy. Callebaut chocolate and Belgian<br/>cocoa.</li><li>Madagascan vanilla extract - NEVER essence. </li></ul><p><strong>Provenance is important to Flavourtown; we're passionate about what goes into our food! The quality of what you put in TOTALLY dictates the finished product's taste. Where our competitors use cheaper, inferior<br/>ingredients, we prefer to go high and charge a fair price that reflects the artistry, small-batch baking and extremely high quality that goes into our products. </strong></p>"
+            "heading": "Why should I choose my treats from you guys at Flavourtown?",
+            "text": "<p>We’ve been doing this for over 13 years and we’ve never changed the quality of our ingredients once!<br/><br/>When we use words like 'worlds best ingredients' and 'the best ingredients money can buy', you probably yawn because you've seen it on a million other bakery websites. What some bakeries mean by this and what WE mean by this is wildly different. </p><ul><li>Lescure AOP butter imported from France </li><li>Free Range Eggs</li><li>Organic flour from Shipton Mill and Doves Farm.</li><li>Organic caster, brown and icing sugar from Tate & Lyle.</li><li>Reno X chocolate from Italy. Callebaut chocolate and Belgian<br/>cocoa.</li><li>Madagascan vanilla extract - NEVER essence. </li></ul><p><strong>Provenance is important to Flavourtown; we're passionate about what goes into our food! The quality of what you put in TOTALLY dictates the finished product's taste. Where our competitors use cheaper, inferior<br/>ingredients, we prefer to go high and charge a fair price that reflects the artistry, small-batch baking and extremely high quality that goes into our products.</strong></p><p>Everything is made super fresh in small batches. We have amazing artisan bakers and decorators and we really care about what goes into your food.</p><p>We genuinely believe we make the best bakes in London, possibly even the world.</p>"
           }
         },
         "category_xPEzhB": {
@@ -323,6 +323,14 @@
             "text": "Collection"
           }
         },
+        "question_KxNdmz": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Can I collect?",
+            "text": "<p>You sure can! Our Fulham store is open seven days a week and you can collect from 10am until 6pm or you can pick up pre-orders from our central kitchen in NW London!</p><p>You simply select collection during checkout</p>"
+          }
+        },
         "question_frcV7j": {
           "type": "question",
           "settings": {
@@ -369,6 +377,7 @@
         "question_NdNyw3",
         "question_aqpq7f",
         "category_CBjnXd",
+        "question_KxNdmz",
         "question_frcV7j"
       ],
       "name": "Collapsible content",
