@@ -1,1 +1,351 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"fa9e7c2c-3597-48c8-86e3-3bf2b1f99f07":{"type":"rich-text","settings":{"full_width":false}},"cb179333-6025-4c53-ac83-ed92345b6830":{"type":"rich-text","settings":{"full_width":false}},"rich_text_D7dMwn":{"type":"rich-text","settings":{"full_width":false}},"rich_text_LKk8W9":{"type":"rich-text","settings":{"full_width":false}},"rich_text_cdz79f":{"type":"rich-text","settings":{"full_width":false}},"a145490c-0f50-4f86-88da-18f9ec2fde4a":{"type":"rich-text","custom_css":["h2 {text-align: center;}"],"settings":{"full_width":false}}},"order":["main","fa9e7c2c-3597-48c8-86e3-3bf2b1f99f07","cb179333-6025-4c53-ac83-ed92345b6830","rich_text_D7dMwn","rich_text_LKk8W9","rich_text_cdz79f","a145490c-0f50-4f86-88da-18f9ec2fde4a"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "heading_size": "h1",
+        "heading_align": "text-center"
+      }
+    },
+    "fa9e7c2c-3597-48c8-86e3-3bf2b1f99f07": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MRHz97": {
+          "type": "heading",
+          "settings": {
+            "heading": "Delivery & Collection",
+            "heading_size": "h2",
+            "heading_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_MRHz97"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": false,
+        "prevent_animation": false
+      }
+    },
+    "cb179333-6025-4c53-ac83-ed92345b6830": {
+      "type": "rich-text",
+      "blocks": {
+        "text_6WRRjU": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Hand Delivery</h2><p>Delivering cakes and cupcakes is a delicate business, so we use a small team of drivers to get your Freshly Baked Happiness from us to you! Our super-friendly drivers are trained to handle your precious baked goods carefully and will check your order before they ring your bell.<br/></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_6WRRjU"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "1",
+        "full_width": false,
+        "prevent_animation": false
+      }
+    },
+    "multi_column_CBAEAM": {
+      "type": "multi-column",
+      "blocks": {
+        "column_Qk4trq": {
+          "type": "column",
+          "settings": {
+            "enable_media": false,
+            "media_scale": 100,
+            "heading": "£9.99 - ANYTIME",
+            "text": "<p>Our ANYTIME delivery will arrive between 8 am and 5 pm - You’ll receive a message on the morning of your chosen delivery date with an approximate two-hour window.</p><p>(Please note that we can’t accept specific requests for times within this window)</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_C4Xx3w": {
+          "type": "column",
+          "settings": {
+            "enable_media": false,
+            "media_scale": 100,
+            "heading": "£17.99 - PRE MIDDAY DELIVERY",
+            "text": "<p>Our PRE-MIDDAY delivery service will arrive between 8 am and 12 pm - You’ll receive a message on the morning of your chosen delivery date with an approximate two-hour window.</p><p>(Please note that we can’t accept specific requests for times within this window)</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Qk4trq",
+        "column_C4Xx3w"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "title": "We offer two options for delivery:",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "layout": "grid",
+        "column_size": "large",
+        "column_align": "left",
+        "media_align": "text-center",
+        "image_ratio": "1",
+        "color_scheme": "none",
+        "button_style": "btn btn--secondary"
+      }
+    },
+    "image_banner_4GYeDh": {
+      "type": "image-banner",
+      "name": "Image banner",
+      "settings": {
+        "image_desktop": "shopify://shop_images/flavourtown-bakery-cupcake-delivery-london-EVERMILE-2025_copy.png",
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 480,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": false,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 0,
+        "prevent_animation": false
+      }
+    },
+    "rich_text_D7dMwn": {
+      "type": "rich-text",
+      "blocks": {
+        "button_Na6nAW": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "View a full list of postcodes we deliver to",
+            "button_1_link": "",
+            "button_1_style": "btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "button_Na6nAW"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": false,
+        "prevent_animation": false
+      }
+    },
+    "rich_text_LKk8W9": {
+      "type": "rich-text",
+      "blocks": {
+        "text_nbFG8q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please ensure someone is available at your chosen delivery address on the day you’ve selected. If you’re sending Flavourtown as a gift, it’s best to advise the recipient that something delicious is coming their way that day.<br/><br/>If there’s nobody around to accept your delivery, we will do our absolute best to contact you, if this isn’t possible, we will attempt to leave your order with a neighbour/receptionist/post room OR in a safe place of your choice. Unfortunately, we cannot take your order away again for re-delivery, and it will be left at the delivery address.<br/><br/>We’re always thrilled to deliver to offices and businesses, but kindly note that we can’t accept liability for any issues such as damage after your order is signed for and left with a post room/reception. It’s always best to alert post rooms, etc., that you’re expecting a fragile delivery.</p><p><strong>IF YOU REQUIRE A PRECISE DELIVERY TIME, PLEASE </strong><a href=\"https://www.flavourtownbakery.co.uk/pages/contact-flavourtown\" title=\"Contact Flavourtown\"><strong>CONTACT US</strong></a><strong>, AND WE CAN ADVISE ON COSTS AND LOGISTICS FROM ONE OF OUR TRUSTED EXTERNAL DELIVERY PARTNERS.</strong></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_Q7Phix": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Get in touch",
+            "button_1_link": "shopify://pages/contact-flavourtown",
+            "button_1_style": "btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_nbFG8q",
+        "button_Q7Phix"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": false,
+        "prevent_animation": false
+      }
+    },
+    "rich_text_z9zMG7": {
+      "type": "rich-text",
+      "blocks": {
+        "text_qEm7TD": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Collect your order from us</h2><p>If you don’t live in our delivery areas or fancy picking up your precious baked goods instead, you can collect your order from our Fulham store or our main bakery kitchen in Park Royal. </p><p>All orders will be completed and boxed up, ready to collect from 10 am! We’ll show you your order and ask you to sign a collection note before you leave the store. Please have your order confirmation printed or handy on your phone, as we may need to check your order number. </p><p>PLEASE KEEP YOUR ORDER FLAT AND LEVEL AND HANDLE IT LIKE A NEWBORN BABY! CAKES AND CUPCAKES ARE SUPER-DELICATE.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_qEm7TD"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "1",
+        "full_width": false,
+        "prevent_animation": false
+      }
+    },
+    "multi_column_JnWXgg": {
+      "type": "multi-column",
+      "blocks": {
+        "column_WQP3iK": {
+          "type": "column",
+          "settings": {
+            "enable_media": false,
+            "media_scale": 100,
+            "heading": "Fulham Shop - Free",
+            "text": "<p>You can collect orders from here every day between 10am and 6pm.</p><p>Address: 771 Fulham Rd, Fulham, London SW6 5HA</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_jNc7QV": {
+          "type": "column",
+          "settings": {
+            "enable_media": false,
+            "media_scale": 100,
+            "heading": "Production Bakery - Free",
+            "text": "<p>You can collect orders from here every day between 10am and 3pm.</p><p>Address: Dephna House, 1-3 Britannia Way, Area 200, London, NW10 7PR</p><p><strong>Please note that this isn’t a shop and only orders that have been pre-booked and pre-paid can be collected from the bakery.</strong></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_WQP3iK",
+        "column_jNc7QV"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "title": "We offer two options for delivery:",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "layout": "grid",
+        "column_size": "large",
+        "column_align": "left",
+        "media_align": "text-center",
+        "image_ratio": "1",
+        "color_scheme": "none",
+        "button_style": "btn btn--secondary"
+      }
+    },
+    "rich_text_bz8nBi": {
+      "type": "rich-text",
+      "blocks": {
+        "text_pN3V6W": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Nationwide Delivery</h2><p>Flavourtown UK cookie and brownie deliveries ship on a NEXT DAY delivery service with DPD. You will receive a notification of dispatch of your order.<br/><br/>Please note it is the customers responsibility to ensure someone will be at home to receive the delivery and/or to have offered \"safe place\" information to DPD. In the event of non-delivery DPD will attempt to redeliver the following day but because of the freshly baked handmade nature of the products we cannot attempt further deliveries.<br/><br/>It is the customers responsibility to ensure a complete FULL address and postcode is supplied along with a correct phone number. Flavourtown Bakery LTD can’t accept any responsibility for orders supplied with incorrect or incomplete information.<br/><br/>You will receive a DPD notification on the day of delivery with a timeslot. DPD deliveries are fully trackable and will offer you ‘safe place’ and ‘on-the-day’ options.<br/><br/>Once your order has been quality checked and dispatched from our bakery, we can’t accept any responsibility for delays occurred by the DPD service. We will attempt to resolve issues on your behalf IF possible. DPD delays are RARE*, and you will be notified of any issued by DPD on the day.<br/><br/>The products will be at your risk from the time you accept delivery of them from DPD.<br/><br/>*Please note that although we use a DPD next day service, there are times of the year (such as Christmas) when delays may be more likely.<br/><br/></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_pN3V6W"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "1",
+        "full_width": false,
+        "prevent_animation": false
+      }
+    },
+    "rich_text_cdz79f": {
+      "type": "rich-text",
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": false,
+        "prevent_animation": false
+      }
+    },
+    "a145490c-0f50-4f86-88da-18f9ec2fde4a": {
+      "type": "rich-text",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": false,
+        "prevent_animation": false
+      }
+    },
+    "faq_G9xpPt": {
+      "type": "faq",
+      "blocks": {
+        "question_YDPaL8": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Postcodes covered for hand delivery",
+            "text": "<h4>INNER LONDON</h4><p><strong>EAST</strong>: E1, E1W, E2, E3, E4, E5, E6, E7, E8, E9, E10, E11, E12, E13, E14, E15, E16, E17, E18<br/><strong>EAST CENTRAL</strong>: EC1, EC2, EC3, EC4<br/><strong>NORTH</strong>: N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12, N13, N14, N15, N16, N17, N18, N19, N20, N21, N22<br/><strong>NORTH WEST</strong>: NW1, NW2, NW3, NW4, NW5, NW6, NW7, NW8, NW9, NW10, NW11<br/><strong>SOUTH EAST</strong>: SE1, SE2, SE3, SE4, SE5, SE6, SE7, SE8, SE9, SE10, SE11, SE12, SE13, SE14, SE15, SE16, SE17, SE18, SE19, SE20, SE21, SE22, SE23, SE24, SE25, SE26, SE27, SE28<br/><strong>SOUTH WEST</strong>: SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW13, SW14, SW15, SW16, SW17, SW18, SW19, SW20<br/><strong>WEST</strong>: W1, W2, W3, W4, W5, W6, W7, W8, W9, W10, W11, W12, W13, W14<br/><strong>WEST CENTRAL</strong>: WC1, WC2</p><h4>GREATER LONDON:</h4><p><strong>BRENTWOOD</strong>: CM13, CM14<br/><strong>BROMLEY</strong>: BR1, BR2, BR3, BR4, BR5, BR6, BR7, BR8<br/><strong>CROYDEN</strong>: CR0, CR2, CR3, CR4, CR5, CR6, CR7, CR8<br/><strong>DARTFORD</strong>: DA1, DA2, DA5, DA6, DA7, DA8, DA14, DA15, DA16, DA17, DA18<br/><strong>ENFIELD</strong>: EN1, EN2, EN3, EN4, EN5, EN6, EN7, EN8, EN9<br/><strong>EPPING</strong>: CM16<br/><strong>HARROW</strong>: HA0, HA1, HA2, HA3, HA4, HA5, HA6, HA7, HA8, HA9<br/><strong>ILFORD</strong>: IG1, IG2, IG3, IG4, IG5, IG6, IG7, IG8, IG9, IG10, IG11<br/><strong>IVER & GERRARDS CROSS</strong>: SL0, SL9<br/><strong>KINGSTON UPON THAMES</strong>: KT1, KT2, KT3, KT4, KT5, KT6, KT7, KT8, KT9, KT10, KT11, KT12, KT13, KT14, KT15, KT16, KT17, KT18, KT19, KT20, KT21, KT22<br/><strong>REDHILL</strong>: RH1, RH2, RH8, RH9,<br/><strong>ROMFORD</strong>: RM1, RM2, RM3, RM4, RM5, RM6, RM7, RM8, RM9, RM10, RM11, RM12, RM13, RM14, RM15, RM19, RM20<br/><strong>SEVENOAKS & WESTERHAM</strong>: TN14, TN16<br/><strong>ST ALBANS (SOUTH)</strong>: AL2<br/><strong>SUTTON & MORDEN</strong>: SM1, SM2, SM3, SM4, SM5, SM6, SM7<br/><strong>TWICKENHAM</strong>: TW1, TW2, TW3, TW4, TW5, TW6, TW7, TW8, TW9, TW10, TW11, TW12, TW13, TW14, TW15, TW16, TW17, TW18, TW19, TW20<br/><strong>UXBRIDGE</strong>: UB1, UB2, UB3, UB4, UB5, UB6, UB7, UB8, UB9, UB10, UB11<br/><strong>WATFORD</strong>: WD2, WD3, WD4, WD5, WD6, WD7, WD17, WD18, WD19, WD23, WD24, WD25</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_YDPaL8"
+      ],
+      "name": "Collapsible content",
+      "settings": {
+        "heading": "",
+        "heading_align": "text-center",
+        "color_scheme": "none",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fa9e7c2c-3597-48c8-86e3-3bf2b1f99f07",
+    "cb179333-6025-4c53-ac83-ed92345b6830",
+    "multi_column_CBAEAM",
+    "image_banner_4GYeDh",
+    "rich_text_D7dMwn",
+    "rich_text_LKk8W9",
+    "rich_text_z9zMG7",
+    "multi_column_JnWXgg",
+    "rich_text_bz8nBi",
+    "rich_text_cdz79f",
+    "a145490c-0f50-4f86-88da-18f9ec2fde4a",
+    "faq_G9xpPt"
+  ]
+}
