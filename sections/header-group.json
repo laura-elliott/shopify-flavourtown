@@ -90,7 +90,7 @@
             "collection_images": "none",
             "collection_use_product_image": false,
             "show_underline": true,
-            "promo_position": "bottom",
+            "promo_position": "right",
             "promo_min_height": 200,
             "promo_text_color": "{{ shop.brand.colors.primary[0].foreground }}",
             "promo_tint_color": "{{ shop.brand.colors.primary[0].background }}",
