@@ -98,7 +98,7 @@
       "name": "Multi-column",
       "settings": {
         "title": "We offer two options for delivery:",
-        "heading_align": "text-start",
+        "heading_align": "text-center",
         "button_label": "",
         "button_link": "",
         "layout": "grid",
@@ -248,8 +248,8 @@
       ],
       "name": "Multi-column",
       "settings": {
-        "title": "We offer two options for delivery:",
-        "heading_align": "text-start",
+        "title": "Our collection locations",
+        "heading_align": "text-center",
         "button_label": "",
         "button_link": "",
         "layout": "grid",
