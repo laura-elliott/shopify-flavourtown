@@ -33,14 +33,14 @@
         "card_size": "large",
         "show_layout_toggle": false,
         "enable_filtering": true,
-        "filters_open_lg": true,
+        "filters_open_lg": false,
         "stick_on_scroll": true,
         "show_filter_counts": true,
         "expand_filters": true,
         "max_filter_options": 7,
         "enable_sorting": true,
         "show_feat_sort_opt": true,
-        "sort_first": true
+        "sort_first": false
       }
     }
   },
