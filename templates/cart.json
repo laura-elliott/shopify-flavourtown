@@ -1,1 +1,53 @@
-{"sections":{"main":{"type":"main-cart","settings":{"show_backorder_text":false,"show_tax_and_shipping":false,"show_additional_checkout_buttons":false,"cart_terms_page":"","continue_shopping_page":"","cart_notification_show":false,"cart_notification_text":"","cart_notification_pos":"","shipping_calculator_default_country":"United States"}},"4f4b736a-1e35-449a-b36f-13230ba40e5b":{"type":"featured-collection","settings":{"title":"Need candles?","show_view_all":true,"collection":"candles","layout":"grid"}}},"order":["main","4f4b736a-1e35-449a-b36f-13230ba40e5b"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "settings": {
+        "show_page_title": true,
+        "heading_size": "h2",
+        "heading_align": "text-start",
+        "show_backorder_text": false,
+        "show_vendor": true,
+        "show_order_note": true,
+        "show_tax_and_shipping": false,
+        "show_additional_checkout_buttons": false,
+        "cart_terms_page": "",
+        "continue_shopping_page": "",
+        "cart_notification_show": false,
+        "cart_notification_text": "",
+        "cart_notification_pos": "",
+        "show_shipping_calculator": false,
+        "shipping_calculator_default_country": "United States"
+      }
+    },
+    "4f4b736a-1e35-449a-b36f-13230ba40e5b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Need candles?",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "candles",
+        "layout": "grid",
+        "card_size_mobile": "small",
+        "card_size": "large",
+        "products_to_show": 4,
+        "color_scheme": "none",
+        "card_contain": false,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4f4b736a-1e35-449a-b36f-13230ba40e5b"
+  ]
+}
