@@ -167,6 +167,17 @@
         "prevent_animation": true
       }
     },
+    "custom_liquid_R7CTCp": {
+      "type": "custom-liquid",
+      "name": "Custom HTML/Liquid",
+      "settings": {
+        "custom_liquid": "",
+        "section_height": "small",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
     "35b86613-768b-4221-ad11-cf0564bcbc5e": {
       "type": "rich-text",
       "blocks": {
@@ -540,6 +551,7 @@
     "1590506747837",
     "1744202119b95c371c",
     "scrolling_banner_9LbHML",
+    "custom_liquid_R7CTCp",
     "35b86613-768b-4221-ad11-cf0564bcbc5e",
     "media_grid_4JL7MY",
     "icons_with_text_kghDrX",
