@@ -215,12 +215,36 @@
             "text": "Ordering"
           }
         },
+        "question_Jk4Tne": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How do I choose when I get my cake?",
+            "text": "<p>As you go through checkout, you’ll see a little calendar, simply click the date that you want your goodies to arrive.</p>"
+          }
+        },
         "question_M8gB7M": {
           "type": "question",
           "settings": {
             "icon": "none",
             "heading": "How long do I need to order in advance?",
             "text": "<p>For online orders, we require a minimum of 48 hours’ notice. We may be able to help at shorter notice so please call or email our customer service team.</p>"
+          }
+        },
+        "question_GAWkGB": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "What's the lead time for my sugar fix?",
+            "text": "<p>Ordering is by 10pm tonight for the day after tomorrow! So for example you can order Tuesday for Thursday delivery.</p>"
+          }
+        },
+        "question_FVizw4": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Can I get same day treats?",
+            "text": "<p>Because everything we do is baked to order we can’t whip up a cake, cool it, decorate it and get it out to you the same day! Quality takes time.</p><p>BUT... Our <a href=\"/pages/visit-flavourtown-bakery\" title=\"Visit Flavourtown\">Fulham store</a> do have cupcakes, cake slices and a limited amount of whole cakes available for same day grab-and-go pick up.</p>"
           }
         },
         "question_nHyinm": {
@@ -259,6 +283,22 @@
           "type": "category",
           "settings": {
             "text": "Delivery"
+          }
+        },
+        "question_XWbNax": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Do you deliver?",
+            "text": "<p>We absolutely do – seven days a week! <a href=\"https://www.flavourtownbakery.co.uk/pages/delivery\" title=\"Delivery & Collection\">Click here to check and see if you’re in our London cake delivery zones</a>. If we are you simply choose the option for a delivery going through checkout. If you’re not you can always collect from our Fulham store or from our central kitchen in NW London.<br/><br/></p>"
+          }
+        },
+        "question_fMVYVJ": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Can I choose a delivery time?",
+            "text": "<p>We offer two delivery methods - an “anytime” delivery is £9.99 and this will come between 8am and 5pm (we can’t offer time slots with this method.</p><p>A pre-midday delivery is £17.99 and will be with you between 8am and 12pm on the day.</p><p>For both options we will text you on the morning of your delivery with an estimated two-hour window.</p>"
           }
         },
         "question_NdNyw3": {
@@ -315,12 +355,17 @@
         "question_X7t7Fp",
         "question_aN6AdF",
         "category_cKeUwR",
+        "question_Jk4Tne",
         "question_M8gB7M",
+        "question_GAWkGB",
+        "question_FVizw4",
         "question_nHyinm",
         "question_EgUxRh",
         "question_wFgBV4",
         "question_JPUFnK",
         "category_bQWREi",
+        "question_XWbNax",
+        "question_fMVYVJ",
         "question_NdNyw3",
         "question_aqpq7f",
         "category_CBjnXd",
