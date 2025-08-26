@@ -50,16 +50,115 @@
         "prevent_animation": false
       }
     },
-    "8773cba2-df91-424b-99c0-d50ae6ce7d12": {
-      "type": "rich-text",
-      "disabled": true,
+    "media_with_text_eGdegi": {
+      "type": "media-with-text",
+      "blocks": {
+        "text_Fceg4W": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can now open a Flavourtown Bakery Corporate Account! Cake makes people happy! so, sending cupcakes to clients or gifting delicious handmade Flavourtown cakes to sweeten a deal is a no-brainer!</p><p>We take care of everything for you, from hand-delivery to personalised gift cards and messages, and we can even design bespoke bakes for larger campaigns.</p><p>If you'd like more details about opening a corporate account drop us an email and our corporate co-ordinator will be happy to assist <a href=\"mailto:corporate@flavourtown.com\" title=\"mailto:corporate@flavourtown.com\">corporate@flavourtown.com</a></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_9nRVdU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop our corporate products",
+            "button_link": "shopify://collections/corporate-cakes-cupcakes",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_Fceg4W",
+        "button_9nRVdU"
+      ],
+      "name": "Media with text",
       "settings": {
-        "text_position": "justify-center",
+        "image": "shopify://shop_images/Regular-Logo-Cupcake-Flavourtown-Bakery.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "right",
+        "image_fit": "cover",
+        "media_width": 50,
+        "media_scale": 100,
         "text_align": "text-center",
-        "mob_center_text": true,
         "color_scheme": "none",
-        "full_width": false,
-        "prevent_animation": false
+        "only_content_color_scheme": false
+      }
+    },
+    "multi_column_F8eyVe": {
+      "type": "multi-column",
+      "blocks": {
+        "column_UXBzG4": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/flavourtown-bakery-corporate-gifting-01.jpg",
+            "media_scale": 100,
+            "heading": "",
+            "text": "<p>Fully customisable cakes, cupcakes, cookies and brownies with logos and colour-matched frosting. When cake arrives at clients' desks, they sit up and take notice, and look at this: your corporate branding happens to be sat right on top!<br/><br/></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_Yk9bUh": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/flavourtown-bakery-bespoke-gifting-08.jpg",
+            "media_scale": 100,
+            "heading": "",
+            "text": "<p>Makes it super easy to send Freshly Baked Happiness for team birthdays, rewarding staff for a job well done or just for an office treat! You’ll even be able to get our famous Halloween, Christmas, and seasonal goodies before anyone else!<br/><br/></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_na7nrt": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/flavourtown-bakery-bespoke-gifting-03.jpg",
+            "media_scale": 100,
+            "heading": "",
+            "text": "<p>We’ll coordinate multiple drop deliveries for launches for you and handle the logistics. You send us a spreadsheet, and we take care of the rest.<br/><br/></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_LEGMgB": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/VANILLA-LOGO-CUPCAKES3.jpg",
+            "media_scale": 100,
+            "heading": "",
+            "text": "<p>You’ll get our best pricing, and ongoing discounts that increase over time and grow for larger orders and events.<br/><br/></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UXBzG4",
+        "column_Yk9bUh",
+        "column_na7nrt",
+        "column_LEGMgB"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "title": "A Flavourtown Bakery Corporate Account has so many benefits:",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "layout": "grid",
+        "column_size": "small",
+        "column_align": "center",
+        "media_align": "text-center",
+        "image_ratio": "natural",
+        "color_scheme": "none",
+        "button_style": "btn btn--secondary"
       }
     },
     "48565c05-4929-450b-b502-0355f2fde4f2": {
@@ -98,7 +197,8 @@
   "order": [
     "main",
     "d7a00f03-7b21-4155-8831-2b8f0d7d83ea",
-    "8773cba2-df91-424b-99c0-d50ae6ce7d12",
+    "media_with_text_eGdegi",
+    "multi_column_F8eyVe",
     "48565c05-4929-450b-b502-0355f2fde4f2",
     "25b69fa4-f4de-4156-ad4a-f2e24be52555"
   ]
