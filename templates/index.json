@@ -427,8 +427,8 @@
         "button_LRBxit": {
           "type": "button",
           "settings": {
-            "button_label": "Get Directions",
-            "button_link": "https://www.google.com/maps/place/Flavourtown+Bakery/@51.4765183,-0.2064091,766m/data=!3m2!1e3!4b1!4m6!3m5!1s0x48760f9c40ef02bb:0x1984333155d10045!8m2!3d51.476515!4d-0.2038342!16s%2Fg%2F11f33m8ftd?entry=ttu&g_ep=EgoyMDI1MDgxOC4wIKXMDSoASAFQAw%3D%3D",
+            "button_label": "Visit us",
+            "button_link": "shopify://pages/visit-flavourtown-bakery",
             "button_style": "btn btn--primary"
           }
         }
