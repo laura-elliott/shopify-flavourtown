@@ -1,1 +1,182 @@
-{"sections":{"main":{"type":"all-cupcakes-collection","settings":{"header_mode":"text-only","accordion_enabled":true,"height":"natural","height_desktop":350,"height_mobile":250,"image_overlay_style":"none","text_alignment":"top center","breadcrumb_align":"none","menu_linklist":"all-cupcakes-sub-menu","pagination_limit_int":36,"products_per_row":4,"mobile_products_per_row":"2","infinite_scroll_enabled":true,"grid_show_vendor":false,"show_filter_counts":true,"show_filter_deadends":false,"ajax_products":true,"filter_mode":"none","filters_sticky":true,"collapse_filters_method":"over-6","enable_sorting":true,"sort_show_featured":false}},"collection-products":{"type":"main-collection-products","blocks":{"image_promotion_kqxbRA":{"type":"image-promotion","settings":{"position":1,"view":"grid_list","hide_on_filter":true,"min_height":150,"link_url":"","content":"<h6>Promotion text<\/h6>","text_type_scale":"1em","text_width":400,"text_alignment":"justify-center items-center text-center","button_label":"Optional Button","button_style":"link","text_color":"#ffffff","tint_color":"#000000"}}},"block_order":["image_promotion_kqxbRA"],"settings":{"products_per_page":24,"card_size_mobile":"small","card_size":"small","show_layout_toggle":true,"enable_filtering":true,"filters_open_lg":true,"stick_on_scroll":true,"show_filter_counts":true,"expand_filters":true,"max_filter_options":7,"enable_sorting":true,"show_feat_sort_opt":true,"sort_first":true}},"collection-banner":{"type":"main-collection-banner","settings":{"show_collection_title":true,"show_product_count":true,"show_collection_description":true,"collection_title_size":"h2","text_width":"wide","text_align":"text-center","text_position":"justify-center items-center","show_image":true,"use_product_image":false,"collection_image":"1.77","color_scheme":"1"}}},"order":["collection-banner","main","collection-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_title": true,
+        "show_product_count": false,
+        "show_collection_description": true,
+        "collection_title_size": "h2",
+        "text_width": "wide",
+        "text_align": "text-center",
+        "text_position": "justify-center items-center",
+        "show_image": true,
+        "use_product_image": false,
+        "collection_image": "fill",
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "all-cupcakes-collection",
+      "disabled": true,
+      "settings": {
+        "header_mode": "text-only",
+        "accordion_enabled": true,
+        "height": "natural",
+        "height_desktop": 350,
+        "height_mobile": 250,
+        "image_overlay_style": "none",
+        "text_alignment": "top center",
+        "breadcrumb_align": "none",
+        "menu_linklist": "all-cupcakes-sub-menu",
+        "pagination_limit_int": 36,
+        "products_per_row": 4,
+        "mobile_products_per_row": "2",
+        "infinite_scroll_enabled": true,
+        "grid_show_vendor": false,
+        "show_filter_counts": true,
+        "show_filter_deadends": false,
+        "ajax_products": true,
+        "filter_mode": "none",
+        "filters_sticky": true,
+        "collapse_filters_method": "over-6",
+        "enable_sorting": true,
+        "sort_show_featured": false
+      }
+    },
+    "collection_list_4qzR9e": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_XnJtUL": {
+          "type": "collection",
+          "settings": {
+            "collection": "regular-cupcakes"
+          }
+        },
+        "collection_DCcpzf": {
+          "type": "collection",
+          "settings": {
+            "collection": "mini-cupcakes"
+          }
+        },
+        "collection_kjfJF3": {
+          "type": "collection",
+          "settings": {
+            "collection": "favourite-boxes"
+          }
+        },
+        "collection_h7r3Ma": {
+          "type": "collection",
+          "settings": {
+            "collection": "personalised-cupcakes"
+          }
+        },
+        "collection_fJKAiQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "photo-cupcakes"
+          }
+        },
+        "collection_JA7Gzp": {
+          "type": "collection",
+          "settings": {
+            "collection": "vegan-cupcakes"
+          }
+        },
+        "collection_79QNdc": {
+          "type": "collection",
+          "settings": {
+            "collection": "free-from-gluten-cupcakes"
+          }
+        },
+        "collection_e4nGJr": {
+          "type": "collection",
+          "settings": {
+            "collection": "themed-cupcakes"
+          }
+        }
+      },
+      "block_order": [
+        "collection_XnJtUL",
+        "collection_DCcpzf",
+        "collection_kjfJF3",
+        "collection_h7r3Ma",
+        "collection_fJKAiQ",
+        "collection_JA7Gzp",
+        "collection_79QNdc",
+        "collection_e4nGJr"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "title": "",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "layout": "carousel",
+        "card_size": "small",
+        "use_product_image": true,
+        "circle_image": false,
+        "show_border": false,
+        "color_scheme": "none",
+        "full_width": false
+      }
+    },
+    "collection-products": {
+      "type": "main-collection-products",
+      "blocks": {
+        "image_promotion_kqxbRA": {
+          "type": "image-promotion",
+          "settings": {
+            "position": 1,
+            "view": "grid_list",
+            "hide_on_filter": true,
+            "min_height": 150,
+            "link_url": "",
+            "content": "<h6>Promotion text</h6>",
+            "text_type_scale": "1em",
+            "text_width": 400,
+            "text_alignment": "justify-center items-center text-center",
+            "button_label": "Optional Button",
+            "button_style": "link",
+            "text_color": "#ffffff",
+            "tint_color": "#000000",
+            "tint_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "image_promotion_kqxbRA"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "show_layout_toggle": true,
+        "enable_filtering": true,
+        "filters_open_lg": true,
+        "stick_on_scroll": true,
+        "show_filter_counts": true,
+        "expand_filters": true,
+        "max_filter_options": 7,
+        "enable_sorting": true,
+        "show_feat_sort_opt": true,
+        "sort_first": true
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "main",
+    "collection_list_4qzR9e",
+    "collection-products"
+  ]
+}

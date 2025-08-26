@@ -73,20 +73,6 @@
         "prevent_animation": true
       }
     },
-    "custom_liquid_zrEQi3": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "custom_css": [
-        "Section {margin: 0;}"
-      ],
-      "settings": {
-        "custom_liquid": "<br />",
-        "section_height": "default",
-        "full_width": false,
-        "dividers": "none",
-        "prevent_animation": false
-      }
-    },
     "rich_text_w3WcmC": {
       "type": "rich-text",
       "blocks": {
@@ -109,29 +95,6 @@
         "mob_center_text": true,
         "color_scheme": "1",
         "full_width": false,
-        "prevent_animation": false
-      }
-    },
-    "71eedb99-f2cf-4887-bc68-4ca14d8537f6": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<br /><br />",
-        "section_height": "default",
-        "full_width": false,
-        "dividers": "none",
-        "prevent_animation": false
-      }
-    },
-    "1613486043a1de1650": {
-      "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "text_position": "justify-center",
-        "text_align": "text-center",
-        "mob_center_text": true,
-        "color_scheme": "none",
-        "full_width": true,
         "prevent_animation": false
       }
     },
@@ -165,63 +128,6 @@
         "judge_me_reviews_featured_carousel_pqRiVf"
       ],
       "settings": {
-        "full_width": false
-      }
-    },
-    "9db06b71-36fa-415c-a453-2ac9e6bc4dca": {
-      "type": "testimonials",
-      "blocks": {
-        "template--14974649139242__9db06b71-36fa-415c-a453-2ac9e6bc4dca-testimonial-1": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Author information",
-            "show_star_rating": true,
-            "star_rating": 5
-          }
-        },
-        "template--14974649139242__9db06b71-36fa-415c-a453-2ac9e6bc4dca-testimonial-2": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Author information",
-            "show_star_rating": true,
-            "star_rating": 5
-          }
-        },
-        "template--14974649139242__9db06b71-36fa-415c-a453-2ac9e6bc4dca-testimonial-3": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Author information",
-            "show_star_rating": true,
-            "star_rating": 5
-          }
-        }
-      },
-      "block_order": [
-        "template--14974649139242__9db06b71-36fa-415c-a453-2ac9e6bc4dca-testimonial-1",
-        "template--14974649139242__9db06b71-36fa-415c-a453-2ac9e6bc4dca-testimonial-2",
-        "template--14974649139242__9db06b71-36fa-415c-a453-2ac9e6bc4dca-testimonial-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "show_quotes": false,
-        "testimonial_size": "h3",
-        "testimonial_font": "heading",
-        "text_position": "justify-center",
-        "text_align": "text-center justify-center",
-        "nav_style": "slideshow_nav_dots",
-        "transition": "slide-fade",
-        "autoplay": true,
-        "slider_pause": false,
-        "autoplay_speed": 7,
-        "color_scheme": "1",
-        "star_color": "#f7c346",
         "full_width": false
       }
     },
@@ -390,14 +296,14 @@
         "button_label": "",
         "button_link": "",
         "gallery_cols_max": 2,
-        "mobile_carousel": false,
+        "mobile_carousel": true,
         "enable_gap": true,
         "text_overlay_spacing": true,
         "gallery_cols_min": "1",
         "fixed_height_desktop": 120,
         "fixed_height_mobile": 300,
         "section_color_scheme": "none",
-        "color_scheme": "white",
+        "color_scheme": "3",
         "transparent_content_color": "{{ shop.brand.colors.primary[0].foreground }}",
         "overlay_border_radius": 0
       }
@@ -630,13 +536,9 @@
   },
   "order": [
     "1478797384865",
-    "custom_liquid_zrEQi3",
     "rich_text_w3WcmC",
-    "71eedb99-f2cf-4887-bc68-4ca14d8537f6",
-    "1613486043a1de1650",
     "1590506747837",
     "1744202119b95c371c",
-    "9db06b71-36fa-415c-a453-2ac9e6bc4dca",
     "scrolling_banner_9LbHML",
     "35b86613-768b-4221-ad11-cf0564bcbc5e",
     "media_grid_4JL7MY",
